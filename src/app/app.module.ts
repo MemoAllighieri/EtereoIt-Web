@@ -9,8 +9,10 @@ import { Router } from '@angular/router';
 import { FooterComponent } from './main/footer/footer.component';
 import { HeaderComponent } from './main/header/header.component';
 import { AboutusComponent } from './main/home/aboutus/aboutus.component';
-import { Technologies1Component } from './main/home/technologies1/technologies1.component';
-import { Technologies2Component } from './main/home/technologies2/technologies2.component';
+import { TechnologiesComponent } from './main/home/technologies/technologies.component';
+import { OurservicesComponent } from './main/home/ourservices/ourservices.component';
+import { OurteamComponent } from './main/home/ourteam/ourteam.component';
+import { MissionvisionComponent } from './main/home/missionvision/missionvision.component';
 
 @NgModule({
   declarations: [
@@ -19,8 +21,10 @@ import { Technologies2Component } from './main/home/technologies2/technologies2.
     FooterComponent,
     HeaderComponent,
     AboutusComponent,
-    Technologies1Component,
-    Technologies2Component
+    TechnologiesComponent,
+    OurservicesComponent,
+    OurteamComponent,
+    MissionvisionComponent,
   ],
   imports: [
     BrowserModule,
