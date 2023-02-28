@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+ }
+ 
+ .container{
+    display: flex;
+    flex-direction: column;
+    width: 200vh;
+    height: 130vh;
+    background-color: white;
+    margin: 2vh;
+    justify-content: center;
+ 
+ }
+ 
+ .box{
+    display: flex;
+    flex-direction: row;
+    width: 196vh;
+    height: 60vh;
+    margin: 2vh;
+    background-color: white;
+   justify-content: center;
+    
+ }
+ 
+ 
+ .servicios{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 55vh;
+    background-color: #3EA7A4;
+    margin: 2.5vh;
+    border-radius: 8%;
+    text-align: center;
+    color: white;
+ }
+ 
+ img{
+    display: flex;
+    width: 40vh;
+    height: 25vh;
+    border-radius: 8%;
+ }
+ 
