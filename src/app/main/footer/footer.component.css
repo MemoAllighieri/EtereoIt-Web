@@ -1,0 +1,77 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+.contact-container{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.email-container{
+    width: 46%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0.8vh 2% 0.8vh 2%;
+}
+
+.title{
+    width: 48%;
+    height: 4vh;
+}
+
+.title a{
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.email{
+    width: 48%;
+    height: 4vh;
+}
+
+.email a{
+    color: white;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.social-container{
+    width: 46%;
+    height: 8vh;
+    display: flex;
+    flex-direction:row;
+    margin: 0.8vh 2% 0.8vh 2%;
+}
+
+.logo-container{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.space{
+    width: 60%;
+    height: 6vh;
+}
+
+.logo{
+    width: 40%;
+    height: 6vh;
+    margin-top: 1vh;
+}
+
+.etereo{
+    width: 100%;
+    height: 8vh;
+}

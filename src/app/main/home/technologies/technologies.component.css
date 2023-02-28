@@ -1,0 +1,41 @@
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    margin: 1vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.tecnologies{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background-color: white;
+}
+
+.tecnology-container{
+    width: 100%;
+}
+
+.tecnologies-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.images{
+    display: flex;
+    margin: 2vh 2% 2vh 2%;
+    width: 24vh;
+    height: 16vh;
+}
