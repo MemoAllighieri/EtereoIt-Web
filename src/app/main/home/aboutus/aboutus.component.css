@@ -9,6 +9,62 @@
     height: 75vh;
 }
 
+.banner-background{
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.banner-text-container{
+    width: 25%;
+    height: 35vh;
+    z-index: -1;
+    float: right;
+    margin-top: 30vh;
+    margin-right: 5%;
+}
+
+.banner-title{
+    width: 100%;
+    height: 10vh; 
+    text-align: center;
+}
+
+.banner-title h3{
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+.banner-subtitle{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+}
+
+.banner-subtitle h4{
+    font-family: 'Righteous', cursive;
+    font-size: 1.8em;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+.banner-p{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+}
+
+.banner-p p{
+    font-family: 'Righteous', cursive;
+    font-size: 1em;
+    color: white;
+}
+
 .banner-container img{
     width: 100%;
     height: 75vh;
@@ -29,7 +85,7 @@
 .choose-title h1{
     font-size: 3.5em;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Righteous', cursive;
     color: black;
     padding: 0%;
     margin: 0%;
@@ -44,7 +100,7 @@
 .choose-subtitle h2{
     font-size: 2.5em;
     font-weight: lighter;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Righteous', cursive;
     color: black;
     padding: 0%;
     margin: 0%;
@@ -52,7 +108,7 @@
 
 .choose-subtitle p{
     font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Righteous', cursive;
     font-weight: lighter;
     width: 80%;
     margin-left: 10%;
@@ -93,7 +149,7 @@
     height: 35vh;
     background-color: #3ea7a4;
     border-radius: 5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Righteous', cursive;
     text-align: center;
     color: white;
     display: flex;
@@ -120,7 +176,7 @@
 
 .end-container{
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -128,14 +184,14 @@
 
 .text-container{
     width: 50%;
-    height: 70vh;
+    height: 60vh;
     text-align: center;
     margin: auto;
 }
 
 .text-container p {
     font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Righteous', cursive;
     color:white;
     width: 75%;
     height: 25vh;
@@ -148,5 +204,5 @@
 
 .reu-container img{
     width: 100%;
-    height: 70vh;
+    height: 60vh;
 }
