@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 200vh;
+    height: 95vh;
+    margin: 2vh;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.values{
+    display: flex;
+    width: 35vh;
+    height: 8vh;
+    background-color: #3EA7A4;
+    border-radius: 8%;
+    margin: 4vh;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.missionbox{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 5%;
+    background-color: #D9D9D9;
+    width: 180vh;
+    height: 80vh;
+    margin: 5vh 10vh 5vh 10vh;
+}
+
+img{
+    border-radius: 5%;
+    width: 80vh;
+}
+
+.textmission{
+    display: flex;
+    flex-direction: column;
+    margin: 4vh;
+}

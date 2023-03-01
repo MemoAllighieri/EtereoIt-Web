@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+img{
+    border-radius: 8%;
+    margin: 4vh;
+    width: 95vh;
+    height: 85vh;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    text-align: left ;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8vh 4vh 10vh 4vh;
+}   
