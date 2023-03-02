@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./missionvision.component.css']
 })
 export class MissionvisionComponent {
+  ViewMissionVission: boolean = true;
 
+  ChangeViewMissionVission(tipo:boolean){
+    this.ViewMissionVission = tipo;
+  }
 }

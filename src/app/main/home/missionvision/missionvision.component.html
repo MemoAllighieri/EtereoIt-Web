@@ -1,14 +1,14 @@
 <div class="container">
     <div class="buttons">
-        <div class="values">
+        <div class="values" (click)="ChangeViewMissionVission(true)">
             <h2>misión</h2>
         </div>
-        <div class="values">
+        <div class="values" (click)="ChangeViewMissionVission(false)">
             <h2>vision</h2>
         </div>
     </div>
 
-    <div class="missionbox">
+    <div class="missionbox" *ngIf="ViewMissionVission">
         <img src="../../../../assets/images/missionvision/missionv.jpg" alt="mission">
         <div class="textmission">
             <h1>MISION</h1>
@@ -17,11 +17,7 @@
             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.</p>
         </div>
     </div>   
-</div>
-
-<div class="container">
-
-    <div class="visionbox">
+    <div class="visionbox" *ngIf="!ViewMissionVission">
         <img src="../../../../assets/images/missionvision/visionm.jpg" alt="vision">
         <div class="textvision">
             <h1>VISION</h1>
@@ -29,5 +25,5 @@
             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.</p>
             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.</p>
         </div>
-    </div>   
+    </div>  
 </div>
