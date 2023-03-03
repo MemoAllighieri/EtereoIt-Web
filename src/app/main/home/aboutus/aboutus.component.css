@@ -16,10 +16,15 @@
     z-index: -1;
 }
 
+.banner-background img{
+    width: 100%;
+    height: 75vh;
+}
+
 .banner-text-container{
     width: 25%;
     height: 35vh;
-    z-index: -1;
+    z-index: 1;
     float: right;
     margin-top: 30vh;
     margin-right: 5%;
@@ -64,11 +69,6 @@
     font-family: 'Righteous', cursive;
     font-size: 1em;
     color: white;
-}
-
-.banner-container img{
-    width: 100%;
-    height: 75vh;
 }
 
 .choose-container{
@@ -202,6 +202,7 @@
 
 .reu-container{
     width: 50%;
+    height: 60vh;
 }
 
 .reu-container img{
@@ -209,6 +210,631 @@
     height: 60vh;
 }
 
-@media screen and (max-width: 1000px){}
+@media screen and (max-width: 1000px){
+    .banner-text-container{
+        width: 35%;
+        height: 40vh;
+        z-index: 1;
+        float: right;
+        margin-top: 30vh;
+        margin-right: 2%;
+        opacity: 0.0;
+    }
 
-@media screen and (max-width: 600px){}
+    .banner-subtitle h4{
+        font-family: 'Righteous', cursive;
+        font-size: 1.5em;
+        color: white;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .banner-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+        color: white;
+    }
+
+    .choose-container{
+        width: 100%;
+        height: 75vh;
+        margin-top: 2%;
+        
+    }
+
+    .choose-title h1{
+        font-size: 2.5em;
+        font-weight: bold;
+        font-family: 'Righteous', cursive;
+        color: black;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .choose-subtitle h2{
+        font-size: 1.8em;
+        font-weight: lighter;
+        font-family: 'Righteous', cursive;
+        color: black;
+        padding: 0%;
+        margin: 0%;
+        margin: auto;
+    }
+
+    .choose-subtitle p{
+        font-size: 0.8em;
+        font-family: 'Righteous', cursive;
+        font-weight: lighter;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .option-img{
+        border-radius: 5%;
+        width: 5%;
+        position: absolute;
+        margin-top: 6.5vh;
+        margin-left: 14%;
+        display: block;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .option-description h2{
+        width: 80%;
+        height: 5vh;
+        margin: 10% 10% 1% 10%;
+        font-size: 1.1em;
+    }
+
+    .option-description p{
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 0.8em;
+    }
+
+    .end-container{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+    }
+
+    .text-container{
+        width: 50%;
+        height: 60vh;
+        text-align: center;
+        margin: auto;
+    }
+
+    .text-container p {
+        font-size: 0.8em;
+        font-family: 'Righteous', cursive;
+        color:white;
+        width: 75%;
+        height: 25vh;
+        margin: 10vh 12.5% 2vh 12.5%;
+    }
+
+    .reu-container{
+        width: 50%;
+        height: 50vh;
+    }
+
+    .reu-container img{
+        width: 100%;
+        height: 50vh;
+    } 
+}
+
+@media screen and (max-width: 800px){
+    .banner-text-container{
+        width: 45%;
+        height: 40vh;
+        z-index: 1;
+        float: right;
+        margin-top: 30vh;
+        margin-right: 2%;
+        opacity: 0.0;
+    }
+    
+    .banner-subtitle h4{
+        font-family: 'Righteous', cursive;
+        font-size: 1.5em;
+        color: white;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .banner-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+        color: white;
+    }
+    
+    .choose-container{
+        width: 100%;
+        height: 75vh;
+        margin-top: 2%;
+        
+    }
+    
+    .choose-title h1{
+        font-size: 2em;
+        font-weight: bold;
+        font-family: 'Righteous', cursive;
+        color: black;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .choose-subtitle h2{
+        font-size: 1.5em;
+        font-weight: lighter;
+        font-family: 'Righteous', cursive;
+        color: black;
+        padding: 0%;
+        margin: 0%;
+        margin: auto;
+    }
+    
+    .choose-subtitle p{
+        font-size: 0.7em;
+        font-family: 'Righteous', cursive;
+        font-weight: lighter;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .option-img{
+        border-radius: 5%;
+        width: 8%;
+        position: absolute;
+        margin-top: 3vh;
+        margin-left: 13%;
+        display: block;
+        z-index: 1;
+        background-color: white;
+    }
+    
+    .option-description h2{
+        width: 80%;
+        height: 5vh;
+        margin: 10% 10% 1% 10%;
+        font-size: 1em;
+    }
+    
+    .option-description p{
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 0.7em;
+    }
+
+    .text-container p {
+        font-size: 0.7em;
+        font-family: 'Righteous', cursive;
+        color:white;
+        width: 75%;
+        height: 25vh;
+        margin: 10vh 12.5% 2vh 12.5%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .banner-container{
+        width: 100%;
+        height: 60vh;
+    }
+    
+    .banner-background{
+        width: 100%;
+        height: 60vh;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .banner-background img{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .banner-text-container{
+        width: 50%;
+        height: 30vh;
+        z-index: 1;
+        float: right;
+        margin-top: 20vh;
+        margin-right: 2%;
+        opacity: 0.0;
+    }
+
+    .banner-title{
+        width: 100%;
+        height: 8vh; 
+        text-align: center;
+    }
+
+    .banner-title h3{
+        font-family: 'Righteous', cursive;
+        font-size: 2em;
+        color: white;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .banner-subtitle{
+        width: 100%;
+        height: 2.5vh;
+        text-align: center;
+    }
+
+    .banner-subtitle h4{
+        font-family: 'Righteous', cursive;
+        font-size: 0.8em;
+        color: white;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .banner-p{
+        width: 100%;
+        height: 18.5vh;
+        text-align: center;
+    }
+    
+    .banner-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 0.7em;
+        color: white;
+    }
+    
+    .choose-container{
+        width: 100%;
+        height: 42vh;
+        margin-top: 2%;
+    }
+    
+    .choose-title{
+        width: 100%;
+        height: 6vh;
+        text-align: center;
+    }
+
+    .choose-title h1{
+        font-size: 1.8em;
+        font-weight: bold;
+        font-family: 'Righteous', cursive;
+        color: black;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .choose-subtitle{
+        width: 100%;
+        height: 12vh;
+        text-align: center;
+    }
+    
+    .choose-subtitle h2{
+        font-size: 0.8em;
+        font-weight: lighter;
+        font-family: 'Righteous', cursive;
+        color: black;
+        padding: 0%;
+        margin: 0%;
+        margin: auto;
+    }
+    
+    .choose-subtitle p{
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        font-weight: lighter;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .choose-options{
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .option{
+        width: 33.3%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .option-img{
+        border-radius: 5%;
+        width: 8%;
+        position: absolute;
+        margin-top: 3vh;
+        margin-left: 13%;
+        display: block;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .option-description{
+        width: 31%;
+        height: 15vh;
+        background-color: #3ea7a4;
+        border-radius: 5%;
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        display: block;
+        margin: 6vh 1% 1vh 1%;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .option-description h2{
+        width: 80%;
+        height: 2.5vh;
+        margin: 15% 10% 1% 10%;
+        font-size: 0.8em;
+    }
+    
+    .option-description p{
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 0.3em;
+    }
+
+    .end-container{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+    }
+    
+    .text-container{
+        width: 50%;
+        height: 20vh;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .text-container p {
+        font-size: 0.3em;
+        font-family: 'Righteous', cursive;
+        color:white;
+        width: 75%;
+        height: 25vh;
+        margin: 2vh 12.5% 2vh 12.5%;
+    }
+    
+    .reu-container{
+        width: 50%;
+        height: auto;
+    }
+    
+    .reu-container img{
+        width: 100%;
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .banner-container{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .banner-background{
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .banner-background img{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .banner-text-container{
+        width: 50%;
+        height: 28vh;
+        z-index: 1;
+        float: right;
+        margin-top: 20vh;
+        margin-right: 2%;
+        opacity: 0.0;
+    }
+
+    .banner-title{
+        width: 100%;
+        height: 5vh; 
+        text-align: center;
+    }
+
+    .banner-title h3{
+        font-family: 'Righteous', cursive;
+        font-size: 2em;
+        color: white;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .banner-subtitle{
+        width: 100%;
+        height: 2.5vh;
+        text-align: center;
+    }
+
+    .banner-subtitle h4{
+        font-family: 'Righteous', cursive;
+        font-size: 0.8em;
+        color: white;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .banner-p{
+        width: 100%;
+        height: 18.5vh;
+        text-align: center;
+    }
+    
+    .banner-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 0.7em;
+        color: white;
+    }
+    
+    .choose-container{
+        width: 100%;
+        height: 42vh;
+        margin-top: 2%;
+    }
+    
+    .choose-title{
+        width: 100%;
+        height: 6vh;
+        text-align: center;
+    }
+
+    .choose-title h1{
+        font-size: 1.8em;
+        font-weight: bold;
+        font-family: 'Righteous', cursive;
+        color: black;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .choose-subtitle{
+        width: 100%;
+        height: 12vh;
+        text-align: center;
+    }
+    
+    .choose-subtitle h2{
+        font-size: 0.8em;
+        font-weight: lighter;
+        font-family: 'Righteous', cursive;
+        color: black;
+        padding: 0%;
+        margin: 0%;
+        margin: auto;
+    }
+    
+    .choose-subtitle p{
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        font-weight: lighter;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .choose-options{
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .option{
+        width: 33.3%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .option-img{
+        border-radius: 5%;
+        width: 8%;
+        position: absolute;
+        margin-top: 3vh;
+        margin-left: 13%;
+        display: block;
+        z-index: 1;
+        background-color: white;
+    }
+
+    .option-description{
+        width: 31%;
+        height: 15vh;
+        background-color: #3ea7a4;
+        border-radius: 5%;
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        display: block;
+        margin: 6vh 1% 1vh 1%;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .option-description h2{
+        width: 80%;
+        height: 2.5vh;
+        margin: 15% 10% 1% 10%;
+        font-size: 0.8em;
+    }
+    
+    .option-description p{
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 0.3em;
+    }
+
+    .end-container{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+    }
+    
+    .text-container{
+        width: 50%;
+        height: 20vh;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .text-container p {
+        font-size: 0.3em;
+        font-family: 'Righteous', cursive;
+        color:white;
+        width: 75%;
+        height: 25vh;
+        margin: 2vh 12.5% 2vh 12.5%;
+    }
+    
+    .reu-container{
+        width: 50%;
+        height: auto;
+    }
+    
+    .reu-container img{
+        width: 100%;
+        height: 20vh;
+    }
+}
