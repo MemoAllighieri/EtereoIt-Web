@@ -1,0 +1,49 @@
+<div class="floating-button">
+    <div class="contact" (click)="dialog.showModal()">        
+        <i class="far fa-comment-alt fa-lg contact-icon"></i>
+    </div>
+</div>
+<dialog #dialog class="dialog-container">
+    <div class="dialog-container-elements">
+        <div class="image-container">
+            <img src="../../../../assets/images/aboutus/reu.jpg">
+        </div>
+        <div class="form-container">
+            <div class="close-modal" (click)="dialog.close()">
+                <i class="fas fa-times close-modal-button"></i>
+            </div>            
+            <div class="form-container-elements">    
+                <div class="mb-5">
+                    <h1>Contáctanos</h1>
+                </div>            
+                <div class="mb-3">
+                    <label for="FullName" class="form-label">NOMBRES COMPLETOS</label>
+                    <input type="FullName" class="form-control" id="FullName">
+                </div>
+                <div class="mb-3">
+                    <label for="Email" class="form-label">CORREO ELECTRONICO</label>
+                    <input type="Email" class="form-control" id="Email">
+                </div>
+                <div class="mb-3">
+                    <label for="ContactNumber" class="form-label">NUMERO DE CONTACTO</label>
+                    <input type="ContactNumber" class="form-control" id="ContactNumber">
+                </div>
+                <div class="mb-3">
+                    <label for="Service" class="form-label">EN QUE SERVICIO ESTARIAS INTERESADO</label>
+                    <select class="form-select" id="Service">
+                        <option *ngFor="let data of Services" [value]="data.id">
+                            {{data.value}}
+                        </option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="Message" class="form-label">MENSAJE</label>
+                    <textarea class="form-control" id="Message" rows="4"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary button-submit" type="submit" (click)="dialog.close()">Enviar</button>
+                </div>
+            </div>            
+        </div>        
+    </div>
+</dialog>

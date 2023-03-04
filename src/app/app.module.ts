@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './main/home/home.component';
@@ -13,6 +14,7 @@ import { TechnologiesComponent } from './main/home/technologies/technologies.com
 import { OurservicesComponent } from './main/home/ourservices/ourservices.component';
 import { OurteamComponent } from './main/home/ourteam/ourteam.component';
 import { MissionvisionComponent } from './main/home/missionvision/missionvision.component';
+import { ContactusComponent } from './main/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +27,12 @@ import { MissionvisionComponent } from './main/home/missionvision/missionvision.
     OurservicesComponent,
     OurteamComponent,
     MissionvisionComponent,
+    ContactusComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

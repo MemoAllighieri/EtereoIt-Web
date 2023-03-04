@@ -1,0 +1,85 @@
+/*Floating Action Button*/
+.floating-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.contact{
+    display: block;
+    text-decoration: none;
+    background: #3EA7A4;
+    color:#ffffff;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/*modal*/
+.close-modal{
+    position: absolute;    
+    top:1%; 
+    right:1%;
+    cursor: pointer;
+}
+
+.close-modal-button{
+    color: #ffffff;
+    font-size: 1.4vh;
+}
+
+.contact-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  font-size: 38px;
+}
+
+.dialog-container{
+    padding: 0px;
+    overflow-y: hidden;
+    max-width: calc((100% - 6px) - 50em);  
+    height: 72vh;  
+    border-radius: 0.5%;
+}
+
+.dialog-container-elements{
+    width: 100%;
+    height: 72vh;  
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.form-container{
+    width: 50%;
+    height: 72vh;
+    margin: 0%;    
+}
+
+.form-container-elements{
+    padding-left: 8vh;    
+    padding-right: 8vh;    
+    padding-top: 2vh; 
+    padding-bottom: 2vh; 
+    color:#ffffff;
+    font-size: 1.1vh;
+}
+
+.image-container{
+    width: 50%;
+    height: 72vh;
+}
+
+.image-container img{
+    width: 100%;
+    height: 72vh;
+}
+
+.button-submit{
+    background-color: #3EA7A4;
+    font-size: 1.4vh;
+}
