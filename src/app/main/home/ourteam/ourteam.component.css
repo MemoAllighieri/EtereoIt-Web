@@ -141,14 +141,14 @@
 
     .team-img{
         width: 45%;
-        height: 55vh;
+        height: 47vh;
         margin: 5vh 2.5% 5vh 2.5%;
         border-radius: 5%;
     }
     
     .team-img img{
         width: 100%;
-        height: 55vh;
+        height: 47vh;
         border-radius: 5%;
     }
 
@@ -163,12 +163,12 @@
         margin: 0%;
         padding: 0%;
         font-family: 'Righteous', cursive;
-        font-size: 0.6em;
+        font-size: 0.5em;
         margin-top: 1vh;
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
     .team-container{
         width: 100%;
         height: 50vh;
