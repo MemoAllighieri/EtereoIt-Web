@@ -1,22 +1,206 @@
-.container{
+.team-container{
+    width: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 
-
-
-img{
-    border-radius: 8%;
-    margin: 4vh;
-    width: 95vh;
-    height: 85vh;
+.team-img{
+    width: 45%;
+    height: 70vh;
+    margin: 5vh 2.5% 5vh 2.5%;
+    border-radius: 5%;
 }
 
-.support{
-    display: flex;
-    flex-direction: column;
-    text-align: left ;
-    font-family: 'Montserrat', sans-serif;
-    margin: 8vh 4vh 10vh 4vh;
-}   
+.team-img img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 5%;
+}
+
+.team-text{
+    width: 45%;
+    height: 70vh;
+    margin: 5vh 2.5% 5vh 2.5%;
+    text-align: center;
+}
+
+.team-text h1{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Righteous', cursive;
+    font-size: 2em;
+}
+
+.team-text p{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Righteous', cursive;
+    font-size: 0.9em;
+    margin-top: 1vh;
+}
+
+@media screen and (max-width: 1200px){
+    .team-text h1{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 1.8em;
+    }
+
+    .team-text p{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.8em;
+        margin-top: 1vh;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .team-container{
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .team-img{
+        width: 45%;
+        height: 65vh;
+        margin: 5vh 2.5% 5vh 2.5%;
+        border-radius: 5%;
+    }
+    
+    .team-img img{
+        width: 100%;
+        height: 65vh;
+        border-radius: 5%;
+    }
+
+    .team-text h1{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 1.6em;
+    }
+
+    .team-text p{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.7em;
+        margin-top: 1vh;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .team-container{
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .team-img{
+        width: 45%;
+        height: 55vh;
+        margin: 5vh 2.5% 5vh 2.5%;
+        border-radius: 5%;
+    }
+    
+    .team-img img{
+        width: 100%;
+        height: 55vh;
+        border-radius: 5%;
+    }
+
+    .team-text h1{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 1.4em;
+    }
+
+    .team-text p{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.6em;
+        margin-top: 1vh;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .team-container{
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .team-img{
+        width: 45%;
+        height: 55vh;
+        margin: 5vh 2.5% 5vh 2.5%;
+        border-radius: 5%;
+    }
+    
+    .team-img img{
+        width: 100%;
+        height: 55vh;
+        border-radius: 5%;
+    }
+
+    .team-text h1{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 1.4em;
+    }
+
+    .team-text p{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.6em;
+        margin-top: 1vh;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .team-container{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .team-img{
+        width: 45%;
+        height: 40vh;
+        margin: 5vh 2.5% 5vh 2.5%;
+        border-radius: 5%;
+    }
+    
+    .team-img img{
+        width: 100%;
+        height: 40vh;
+        border-radius: 5%;
+    }
+
+    .team-text h1{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 1em;
+    }
+
+    .team-text p{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.4em;
+        margin-top: 1vh;
+    }
+}

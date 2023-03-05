@@ -1,29 +1,50 @@
-<div class="container">
-    <div class="buttons">
-        <div class="values" (click)="ChangeViewMissionVission(true)">
-            <h2>misión</h2>
+<div class="mision-vision-container">
+    <div class="mision-vision-buttons">
+        <div class="button-value" (click)="ChangeViewMissionVission(true)">
+            <h2>MISION</h2>
         </div>
-        <div class="values" (click)="ChangeViewMissionVission(false)">
-            <h2>vision</h2>
+        <div class="button-value" (click)="ChangeViewMissionVission(false)">
+            <h2>VISION</h2>
         </div>
     </div>
-
-    <div class="missionbox" *ngIf="ViewMissionVission">
-        <img src="../../../../assets/images/missionvision/missionv.jpg" alt="mission">
-        <div class="textmission">
-            <h1>MISION</h1>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.</p>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.</p>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.</p>
-        </div>
-    </div>   
-    <div class="visionbox" *ngIf="!ViewMissionVission">
-        <img src="../../../../assets/images/missionvision/visionm.jpg" alt="vision">
-        <div class="textvision">
-            <h1>VISION</h1>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.</p>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.</p>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.</p>
-        </div>
-    </div>  
+    <div class="mision-vision-content">
+        <div class="mision-container" *ngIf="ViewMissionVission">
+            <div class="option-container-img">
+                <img src="../../../../assets/images/missionvision/missionv.jpg" alt="mission">
+            </div>
+            <div class="option-container-text">
+                <div class="option-container-text-title">
+                    <h1>MISIÓN</h1>
+                </div>
+                <div class="option-container-text-p">
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.
+                    </p>
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.
+                    </p>
+                </div>
+            </div>
+        </div>   
+        <div class="vision-container" *ngIf="!ViewMissionVission">
+            <div class="option-container-img">
+                <img src="../../../../assets/images/missionvision/visionm.jpg" alt="vision">
+            </div>
+            <div class="option-container-text">
+                <div class="option-container-text-title">
+                    <h1>VISIÓN</h1>
+                </div>
+                <div class="option-container-text-p">
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.
+                    </p>
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi eligendi ex architecto labore accusamus cupiditate rem omnis debitis, hic odio quaerat nihil quo repellendus sequi eveniet beatae error, mollitia ratione.
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </div>
 </div>

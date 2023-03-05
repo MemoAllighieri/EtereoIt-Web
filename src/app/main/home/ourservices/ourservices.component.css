@@ -1,51 +1,326 @@
-h1{
-    text-align: center;
- }
- 
- .container{
-    display: flex;
-    flex-direction: column;
-    width: 200vh;
-    height: 130vh;
-    background-color: white;
-    margin: 2vh;
-    justify-content: center;
- 
- }
- 
- .box{
-    display: flex;
-    flex-direction: row;
-    width: 196vh;
-    height: 60vh;
-    margin: 2vh;
-    background-color: white;
-   justify-content: center;
-    
- }
- 
- 
- .services{
-    display: flex;
-    flex-direction: column;
-    width: 40vh;
-    height: 55vh;
-    background-color: #3EA7A4;
-    margin: 2.5vh;
-    border-radius: 8%;
- }
- 
- img{
-    display: flex;
-    width: 40vh;
-    height: 25vh;
-    border-radius: 8%;
- }
- .textservices{
+.services-container{
+   width: 100%;
+   height: 150vh;
    display: flex;
    flex-direction: column;
+}
+
+.services-title{
+   width: 90%;
+   height: 10vh;
+   margin: 2vh 5% 2vh 5%;
    text-align: center;
-   color: white;
-   justify-content: center;
+}
+
+.services-title h1{
+   font-size: 2.5em;
+   font-family: 'Righteous', cursive;
+   margin: auto;
+}
+
+.services-content{
+   width: 100%;
+   height: 100vh;
+}
+
+.services-card-container{
+   width: 85%;
+   height: 60vh;
+   margin: 5vh 7.5% 5vh 7.5%;
+   display: flex;
+   flex-direction: row;   
+   justify-content: space-around;
+}
+
+.services-card{
+   width: 25%;
+   height: 55vh;
+   display: flex;
+   flex-direction: column;
+   margin-top: 2.5vh;
+   background-color: #3EA7A4;
+   border-radius: 5%;
+}
+
+.services-card-img{
+   width: 100%;
    height: 30vh;
- }  
+}
+
+.services-card-img img{
+   width: 100%;
+   height: 30vh;
+   border-radius: 5%;
+}
+
+.services-card-description{
+   width: 100%;
+   height: 25vh;
+   text-align: center;
+}
+
+.services-card-description h2{
+   width: 100%;
+   height: 3.5vh;
+   margin: 0%;
+   padding: 0%;
+   font-size: 1em;
+   font-family: 'Righteous', cursive;
+   color: white;
+}
+
+.services-card-description p{
+   width: 100%;
+   height: 21.5vh;
+   margin: 0%;
+   font-size: 0.8em;
+   font-family: 'Righteous', cursive;
+   color: white;
+}
+
+@media screen and (max-width: 1000px){
+   .services-container{
+      border: 2px solid blue;
+      width: 100%;
+      height: 110vh;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .services-title{
+      width: 90%;
+      height: 6vh;
+      margin: 1vh 5% 1vh 5%;
+      text-align: center;
+   }
+
+   .services-title h1{
+      font-size: 2em;
+      font-family: 'Righteous', cursive;
+      margin: auto;
+   }
+
+   .services-content{
+      width: 100%;
+      height: 100vh;
+   }
+   
+   .services-card-container{
+      width: 90%;
+      height: 45vh;
+      margin: 2.5vh 5% 2.5vh 5%;
+      display: flex;
+      flex-direction: row;   
+      justify-content: space-around;
+   }
+   
+   .services-card{
+      width: 30%;
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      margin-top: 2.5vh;
+      background-color: #3EA7A4;
+      border-radius: 5%;
+   }
+   
+   .services-card-img{
+      width: 100%;
+      height: 18vh;
+   }
+   
+   .services-card-img img{
+      width: 100%;
+      height: 18vh;
+      border-radius: 5%;
+   }
+   
+   .services-card-description{
+      width: 100%;
+      height: 20vh;
+      text-align: center;
+   }
+   
+   .services-card-description h2{
+      width: 100%;
+      height: 3.5vh;
+      margin: 0%;
+      padding: 0%;
+      font-size: 1em;
+      font-family: 'Righteous', cursive;
+      color: white;
+   }
+   
+   .services-card-description p{
+      width: 100%;
+      height: 14vh;
+      margin: 0%;
+      font-size: 0.7em;
+      font-family: 'Righteous', cursive;
+      color: white;
+   }
+}
+
+@media screen and (max-width: 700px){
+   .services-container{
+      width: 100%;
+      height: 110vh;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .services-title{
+      width: 90%;
+      height: 6vh;
+      margin: 1vh 5% 1vh 5%;
+      text-align: center;
+   }
+
+   .services-title h1{
+      font-size: 2em;
+      font-family: 'Righteous', cursive;
+      margin: auto;
+   }
+
+   .services-content{
+      width: 100%;
+      height: 100vh;
+   }
+   
+   .services-card-container{
+      width: 90%;
+      height: 45vh;
+      margin: 2.5vh 5% 2.5vh 5%;
+      display: flex;
+      flex-direction: row;   
+      justify-content: space-around;
+   }
+   
+   .services-card{
+      width: 30%;
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      margin-top: 2.5vh;
+      background-color: #3EA7A4;
+      border-radius: 5%;
+   }
+   
+   .services-card-img{
+      width: 100%;
+      height: 18vh;
+   }
+   
+   .services-card-img img{
+      width: 100%;
+      height: 18vh;
+      border-radius: 5%;
+   }
+   
+   .services-card-description{
+      width: 100%;
+      height: 20vh;
+      text-align: center;
+   }
+   
+   .services-card-description h2{
+      width: 100%;
+      height: 3.5vh;
+      margin: 0%;
+      padding: 0%;
+      font-size: 0.9em;
+      font-family: 'Righteous', cursive;
+      color: white;
+   }
+   
+   .services-card-description p{
+      width: 100%;
+      height: 14vh;
+      margin: 0%;
+      font-size: 0.7em;
+      font-family: 'Righteous', cursive;
+      color: white;
+   }
+}
+
+@media screen and (max-width: 450px){
+   .services-container{
+      width: 100%;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .services-title{
+      width: 90%;
+      height: 5vh;
+      margin: 1vh 5% 1vh 5%;
+      text-align: center;
+   }
+
+   .services-title h1{
+      font-size: 1.5em;
+      font-family: 'Righteous', cursive;
+      margin: auto;
+   }
+
+   .services-content{
+      width: 100%;
+      height: 75vh;
+   }
+   
+   .services-card-container{
+      width: 85%;
+      height: 35vh;
+      margin: 1vh 7.5% 1vh 7.5%;
+      display: flex;
+      flex-direction: row;   
+      justify-content: space-around;
+   }
+   
+   .services-card{
+      width: 25%;
+      height: 30vh;
+      display: flex;
+      flex-direction: column;
+      margin-top: 2.5vh;
+      background-color: #3EA7A4;
+      border-radius: 5%;
+   }
+   
+   .services-card-img{
+      width: 100%;
+      height: 12.5vh;
+   }
+   
+   .services-card-img img{
+      width: 100%;
+      height: 12.5vh;
+      border-radius: 5%;
+   }
+   
+   .services-card-description{
+      width: 100%;
+      height: 17.5vh;
+      text-align: center;
+   }
+   
+   .services-card-description h2{
+      width: 100%;
+      height: 3.5vh;
+      margin: 0%;
+      padding: 0%;
+      font-size: 0.6em;
+      font-family: 'Righteous', cursive;
+      color: white;
+   }
+   
+   .services-card-description p{
+      width: 100%;
+      height: 14vh;
+      margin: 0%;
+      font-size: 0.3em;
+      font-family: 'Righteous', cursive;
+      color: white;
+   }
+}
