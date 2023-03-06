@@ -6,23 +6,26 @@
 .tecnology-title{
     width: 85%;
     height: 15vh;
-    margin: 2vh 7.5% 2vh 7.5%;
+    margin: 4vh 7.5% 1vh 7.5%;
     text-align: center;
 }
 
 .tecnology-title h1{
     font-size: 2.5em;
     font-family: 'Montserrat', sans-serif;
+    align-content: center;
     margin: 0%;
-    padding: 0%;
+    padding: 3%;
+    
 }
 
 .tecnologies{
     width: 90%;
     height: 60vh;
-    margin: 3vh 5% 3vh 5%;
+    margin: 0vh 5% 3vh 5%;
     display: flex;
     flex-direction: column;
+  
 }
 
 .tecnologies-container{
