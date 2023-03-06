@@ -1,14 +1,6 @@
-<div class="mision-vision-container">
-    <div class="mision-vision-buttons">
-        <div class="button-value" (click)="ChangeViewMissionVission(true)">
-            <h2>MISION</h2>
-        </div>
-        <div class="button-value" (click)="ChangeViewMissionVission(false)">
-            <h2>VISION</h2>
-        </div>
-    </div>
+<div class="mision-vision-container">|
     <div class="mision-vision-content">
-        <div class="mision-container" *ngIf="ViewMissionVission">
+        <div class="mision-container">
             <div class="option-container-img">
                 <img src="../../../../assets/images/missionvision/missionv.jpg" alt="mission">
             </div>
@@ -27,7 +19,7 @@
                 </div>
             </div>
         </div>   
-        <div class="vision-container" *ngIf="!ViewMissionVission">
+        <div class="vision-container">
             <div class="option-container-img">
                 <img src="../../../../assets/images/missionvision/visionm.jpg" alt="vision">
             </div>
