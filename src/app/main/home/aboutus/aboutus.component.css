@@ -122,10 +122,11 @@
     height: 50vh;
     display: flex;
     flex-direction: row;
+
 }
 
 .option{
-    width: 33.3%;
+    width: 33%;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -135,11 +136,11 @@
     border-radius: 5%;
     width: 5%;
     position: absolute;
-    margin-top: 5vh;
-    margin-left: 14%;
+    margin: 5vh 2vh 0vh 26vh;
     display: block;
     z-index: 1;
     background-color: white;
+    justify-content: center;
 }
 
 .option-img img{
@@ -147,7 +148,7 @@
 }
 
 .option-description{
-    width: 31%;
+    width: 27%;
     height: 35vh;
     background-color: #3ea7a4;
     border-radius: 5%;
@@ -156,7 +157,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     display: block;
     margin: 11.5vh 1% 1vh 1%;
     position: absolute;

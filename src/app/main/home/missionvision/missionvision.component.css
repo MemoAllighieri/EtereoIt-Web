@@ -76,3 +76,243 @@
     background-color: rgb(201, 201, 201);
 }
 
+@media screen and (max-width: 1000px){
+    .mision-vision-container{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .mision-vision-content{
+        width: 75%;
+        height: 50vh;
+    
+    }
+    
+    .mision-container{
+        width: 100%;
+        height: 50vh;
+        display:flex;
+        flex-direction: row;
+        margin: 1.5vh 6% 1.5vh 6%;
+        border-radius: 25px; 
+        background-color: rgb(201, 201, 201);
+    }
+    
+    .options-container{
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .option-container-img{
+        width: 45%;
+        height: 30vh;
+        border-radius: 10px; 
+    }
+    
+    .option-container-img img{
+        width: 100%;
+        height: 30vh;
+        border-radius: 25px; 
+    }
+    
+    .option-container-text{
+        width: 55%;
+        height: 30vh;
+    }
+    
+    .option-container-text-title{
+        width: 80%;
+        height: 6vh;
+        margin: 0.5vh 6% 0.5vh 6%;
+        text-align: center;
+    }
+    
+    .option-container-text-title h1{
+        color: black;
+        font-size: 1.5em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .option-container-text-p{
+        width: 80%;
+        height: 20vh;
+        margin: 0.5vh 6% 0.5vh 6%;
+    }
+    
+    .option-container-text-p p{
+        color: black;
+        font-size: 0.5em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .vision-container{
+        width: 100%;
+        height: 30vh;
+        display:flex;
+        flex-direction: row-reverse;
+        margin: 4vh 7% 4vh 7%;
+        border-radius: 25px; 
+        background-color: rgb(201, 201, 201);
+    } 
+}
+
+@media screen and (max-width: 700px){
+    .mision-vision-container{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .mision-vision-content{
+        width: 75%;
+        height: 50vh;
+    
+    }
+    
+    .mision-container{
+        width: 100%;
+        height: 50vh;
+        display:flex;
+        flex-direction: row;
+        margin: 1.5vh 6% 1.5vh 6%;
+        border-radius: 25px; 
+        background-color: rgb(201, 201, 201);
+    }
+    
+    .options-container{
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .option-container-img{
+        width: 45%;
+        height: 30vh;
+        border-radius: 10px; 
+    }
+    
+    .option-container-img img{
+        width: 100%;
+        height: 30vh;
+        border-radius: 25px; 
+    }
+    
+    .option-container-text{
+        width: 55%;
+        height: 30vh;
+    }
+    
+    .option-container-text-title{
+        width: 80%;
+        height: 6vh;
+        margin: 0.5vh 6% 0.5vh 6%;
+        text-align: center;
+    }
+    
+    .option-container-text-title h1{
+        color: black;
+        font-size: 1.5em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .option-container-text-p{
+        width: 80%;
+        height: 20vh;
+        margin: 0.5vh 6% 0.5vh 6%;
+    }
+    
+    .option-container-text-p p{
+        color: black;
+        font-size: 0.5em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .vision-container{
+        width: 100%;
+        height: 30vh;
+        display:flex;
+        flex-direction: row-reverse;
+        margin: 4vh 7% 4vh 7%;
+        border-radius: 25px; 
+        background-color: rgb(201, 201, 201);
+    } 
+}
+
+@media screen and (max-width: 450px){
+    .mision-vision-container{
+        width: 100%;
+        height: 60vh;
+    }
+    
+    .mision-vision-content{
+        width: 75%;
+        height: 50vh;
+    
+    }
+    
+    .mision-container{
+        width: 100%;
+        height: 25vh;
+        display:flex;
+        flex-direction: row;
+        margin: 1vh 4% 1vh 4%;
+        border-radius: 25px; 
+        background-color: rgb(201, 201, 201);
+    }
+    
+    .options-container{
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .option-container-img{
+        width: 45%;
+        height: 20vh;
+        border-radius: 10px; 
+    }
+    
+    .option-container-img img{
+        width: 100%;
+        height: 20vh;
+        border-radius: 25px; 
+    }
+    
+    .option-container-text{
+        width: 55%;
+        height: 20vh;
+    }
+    
+    .option-container-text-title{
+        width: 80%;
+        height: 4vh;
+        margin: 0.5vh 4% 0.5vh 4%;
+        text-align: center;
+    }
+    
+    .option-container-text-title h1{
+        color: black;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .option-container-text-p{
+        width: 80%;
+        height: 10vh;
+        margin: 0.5vh 4% 0.5vh 4%;
+    }
+    
+    .option-container-text-p p{
+        color: black;
+        font-size: 0.25em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .vision-container{
+        width: 100%;
+        height: 20vh;
+        display:flex;
+        flex-direction: row-reverse;
+        margin: 2vh 4% 2vh 4%;
+        border-radius: 25px; 
+        background-color: rgb(201, 201, 201);
+    } 
+}
+    

@@ -10,7 +10,7 @@
 
 .contact{
     width: 90%;
-    height: 10vh;
+    height: 8vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -236,4 +236,158 @@
     font-size: 1.2em;
     text-align: center;
     padding: 0%;
+}
+
+@media screen and (max-width: 1000px){
+    .floating-button{
+        width: 20%;
+        height: 8vh;
+        position: fixed;
+        bottom: 70px;
+        right: 20px;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 90%;
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0.8vh 3% 0.8vh 3%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin: 2vh 0% 0.7vh 2%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        margin: 0%;
+        padding: 0%;
+        font-size: 2em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 4vh;
+        margin: 1.5vh 0% 1.5vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+    .floating-button{
+        width: 20%;
+        height: 8vh;
+        position: fixed;
+        bottom: 70px;
+        right: 20px;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 90%;
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0.8vh 3% 0.8vh 3%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin: 2vh 0% 0.7vh 2%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        margin: 0%;
+        padding: 0%;
+        font-size: 2em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 4vh;
+        margin: 1.5vh 0% 1.5vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .floating-button{
+        width: 20%;
+        height: 4vh;
+        position: fixed;
+        bottom: 70px;
+        right: 20px;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 90%;
+        height: 3vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0.4vh 1.5% 0.4vh 1.5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin: 1vh 0% 0.3vh 1%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        margin: 0%;
+        padding: 0%;
+        font-size: 1em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 2vh;
+        margin: 0.8vh 0% 0.8vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 0.6em;
+    }
 }
