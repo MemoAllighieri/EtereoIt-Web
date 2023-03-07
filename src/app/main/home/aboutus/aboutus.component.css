@@ -136,7 +136,7 @@
     border-radius: 5%;
     width: 5%;
     position: absolute;
-    margin: 5vh 2vh 0vh 26vh;
+    margin: 2% 9% 0% 9%;
     display: block;
     z-index: 1;
     background-color: white;
@@ -148,7 +148,7 @@
 }
 
 .option-description{
-    width: 27%;
+    width: 21%;
     height: 35vh;
     background-color: #3ea7a4;
     border-radius: 5%;
@@ -159,7 +159,7 @@
     flex-direction: column;
     justify-content: space-around;
     display: block;
-    margin: 11.5vh 1% 1vh 1%;
+    margin: 5.5% 1% 0% 1.1%;
     position: absolute;
     z-index: -1;
 }
@@ -350,7 +350,7 @@
         border-radius: 5%;
         width: 5%;
         position: absolute;
-        margin: 2.5vh 1vh 0vh 13vh;
+        margin: 2% 9% 0% 9%;;
         display: block;
         z-index: 1;
         background-color: white;
@@ -565,7 +565,7 @@
         border-radius: 5%;
         width: 5%;
         position: absolute;
-        margin: 2.5vh 1vh 0vh 13vh;
+        margin: 2% 9% 0% 9%;
         display: block;
         z-index: 1;
         background-color: white;
@@ -588,7 +588,7 @@
         flex-direction: column;
         justify-content: space-around;
         display: block;
-        margin: 5.5vh 1% 0.5vh 1%;
+        margin: 5.5% 1% 0% 1.1%;
         position: absolute;
         z-index: -1;
     }
@@ -780,7 +780,7 @@
         border-radius: 5%;
         width: 5%;
         position: absolute;
-        margin: 1.2vh 0.5vh 0vh 6.5vh;
+        margin: 2% 9% 0% 9%;
         display: block;
         z-index: 1;
         background-color: white;
@@ -803,7 +803,7 @@
         flex-direction: column;
         justify-content: space-around;
         display: block;
-        margin: 2.5vh 1% 0.25vh 1%;
+        margin: 5.5% 1% 0% 1.1%;
         position: absolute;
         z-index: -1;
     }
