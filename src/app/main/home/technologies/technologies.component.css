@@ -46,7 +46,7 @@
 .tecnologies-images img{
     width: 70%;
     height: 12vh;
-    margin: 2vh 20% 2vh 20%;
+    margin: 2vh 10% 2vh 10%;
 }
 
 @media screen and (max-width: 1000px){
