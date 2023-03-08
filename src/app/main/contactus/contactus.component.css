@@ -1,16 +1,16 @@
 /*Floating Action Button*/
 .floating-button{
-    width: 20%;
+    width: 15%;
     height: 12vh;
     position: fixed;
-    bottom: 70px;
-    right: 20px;
+    bottom: 8.5%;
+    right: 3%;
     z-index: 2;
 }
 
 .contact{
     width: 90%;
-    height: 8vh;
+    height: 9vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -33,7 +33,7 @@
 .contact-icon i{
     margin: 0%;
     padding: 0%;
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 .contact-p{
@@ -45,10 +45,10 @@
 
 .contact-p p{
     font-family: 'Righteous', cursive;
-    font-size: 1.5em;
+    font-size: 2.2em;
 }
 
-/*modal*/
+/*RESPONSIVE PARA MODAL*/
 .close-modal{
     width: 5%;
     height: 5vh;
@@ -65,8 +65,8 @@
 }
 
 .dialog-container{
-    width: 70%;
-    height: 70vh;  
+    width: 75%;
+    height: 60vh;  
     padding: 0px;
     overflow-y: hidden;
     overflow-x: hidden; 
@@ -75,43 +75,43 @@
 
 .dialog-container-elements{
     width: 100%;
-    height: 70vh;  
+    height: 60vh;  
     display: flex;
     flex-direction: row;
     background-color: black;
 }
 
 .image-container{
-    width: 55%;
-    height: 70vh;
+    width: 45%;
+    height: 60vh;
 }
 
 .image-container img{
     width: 100%;
-    height: 70vh;
+    height: 60vh;
 }
 
 .form-container{
-    width: 45%;
-    height: 70vh;
+    width: 55%;
+    height: 60vh;
     margin: 0%;    
 }
 
 .form-container-elements{
-    width: 90%;
-    height: 65vh;
-    margin: 2.5vh 5% 2.5vh 5%;
+    width: 95%;
+    height: 55vh;
+    margin: 2.5vh 2.5% 2.5vh 2.5%;
 }
 
 .form-container-title{
     width: 100%;
-    height: 6vh;
+    height: 5vh;
     text-align: center;
 }
 
 .form-container-title h1{
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Righteous', cursive;
 }
 
@@ -123,13 +123,13 @@
 
 .form-container-name{
     width: 48%;
-    height: 11vh;
+    height: 8vh;
     margin: 0.5vh 1% 0.5vh 1%
 }
 
 .form-container-name label{
     color: #ffffff;
-    font-size: 0.6em;
+    font-size: 1em;
     font-family: 'Righteous', cursive;
     margin: 0%;
 }
@@ -137,19 +137,19 @@
 .form-container-name input{
     width: 95%;
     height: 5vh;
-    margin: 0.5vh 2.5% 0.5vh 2.5%;
+    margin: 0vh 2.5% 0vh 2.5%;
     font-family: 'Righteous', cursive;
 }
 
 .form-container-contact{
     width: 48%;
-    height: 11vh;
+    height: 8vh;
     margin: 0.5vh 1% 0.5vh 1%
 }
 
 .form-container-contact label{
     color: #ffffff;
-    font-size: 0.6em;
+    font-size: 1em;
     font-family: 'Righteous', cursive;
     margin: 0%;
 }
@@ -157,19 +157,19 @@
 .form-container-contact input{
     width: 95%;
     height: 5vh;
-    margin: 0.5vh 2.5% 0.5vh 2.5%;
+    margin: 0vh 2.5% 0vh 2.5%;
     font-family: 'Righteous', cursive;
 }
 
 .form-container-email{
     width: 98%;
-    height: 11vh;
+    height: 8vh;
     margin: 0.5vh 1% 0.5vh 1%
 }
 
 .form-container-email label{
     color: #ffffff;
-    font-size: 0.6em;
+    font-size: 1em;
     font-family: 'Righteous', cursive;
     margin: 0%;
 }
@@ -177,19 +177,19 @@
 .form-container-email input{
     width: 95%;
     height: 5vh;
-    margin: 0.5vh 2.5% 0.5vh 2.5%;
+    margin: 0vh 2.5% 0vh 2.5%;
     font-family: 'Righteous', cursive;
 }
 
 .form-container-service{
     width: 98%;
-    height: 11vh;
-    margin: 0.5vh 1% 0.5vh 1%
+    height: 8vh;
+    margin: 0vh 1% 0vh 1%
 }
 
 .form-container-service label{
     color: #ffffff;
-    font-size: 0.6em;
+    font-size: 1em;
     font-family: 'Righteous', cursive;
     margin: 0%;
 }
@@ -197,7 +197,7 @@
 .form-container-service select{
     width: 95%;
     height: 5vh;
-    margin: 0.5vh 2.5% 0.5vh 2.5%;
+    margin: 0vh 2.5% 0vh 2.5%;
     font-family: 'Righteous', cursive;
     font-size: 0.9em;
 }
@@ -210,7 +210,7 @@
 
 .form-container-message label{
     color: #ffffff;
-    font-size: 0.6em;
+    font-size: 1em;
     font-family: 'Righteous', cursive;
     margin: 0%;
 }
@@ -225,158 +225,1905 @@
 
 .form-container-button{
     width: 30%;
-    height: 7vh;
+    height: 6vh;
     margin-left: 4%;
 }
 
 .form-container-button button{
     width: 95%;
-    height: 7vh;
+    height: 6vh;
     background-color: #3EA7A4;
-    font-size: 1.2em;
+    font-size: 2em;
     text-align: center;
     padding: 0%;
 }
 
+@media screen and (max-width: 2500px){
+    .floating-button{
+        width: 17%;
+        height: 12vh;
+        position: fixed;
+        bottom: 8.5%;
+        right: 3%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 90%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 1vh 5% 1vh 5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 6vh;
+        margin: 2.5vh 0% 1vh 2.5%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        margin: 0%;
+        padding: 0%;
+        font-size: 3.5em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 6vh;
+        margin: 2vh 0% 2vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width: 2250px){
+    .floating-button{
+        width: 18%;
+        height: 12vh;
+        position: fixed;
+        bottom: 8.5%;
+        right: 3%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 90%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 1vh 5% 1vh 5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 6vh;
+        margin: 2.5vh 0% 1vh 2.5%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        margin: 0%;
+        padding: 0%;
+        font-size: 3em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 6vh;
+        margin: 2vh 0% 2vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 1800px){
+    .floating-button{
+        width: 20%;
+        height: 12vh;
+        position: fixed;
+        bottom: 8.5%;
+        right: 3%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 90%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 1vh 5% 1vh 5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 25px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 6vh;
+        margin: 2.5vh 0% 1vh 2%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        margin: 0%;
+        padding: 0%;
+        font-size: 2.5em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 6vh;
+        margin: 2vh 0% 2vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 1.8em;
+    }
+}
+
+
+@media screen and (max-width: 1500px){
+    .floating-button{
+        width: 22%;
+        height: 10vh;
+        position: fixed;
+        bottom: 11%;
+        right: 2%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 95%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 1vh 2.5% 1vh 2.5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin-top: 7.5%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        font-size: 2.5em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 2vh;
+        margin: 2vh 0% 0.8vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 1.8em;
+    }
+
+    /*RESPONSIVE PARA MODAL*/
+    .close-modal{
+        width: 5%;
+        height: 5vh;
+        position: absolute;    
+        cursor: pointer;
+        text-align: center;
+        top:1%; 
+        right:1%;
+    }
+    
+    .close-modal-button{
+        color: #ffffff;
+        font-size: 1em;
+    }
+    
+    .dialog-container{
+        width: 85%;
+        height: 65vh;  
+        padding: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden; 
+        border-radius: 10px;
+    }
+    
+    .dialog-container-elements{
+        width: 100%;
+        height: 65vh;  
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+    }
+    
+    .image-container{
+        width: 45%;
+        height: 60vh;
+    }
+    
+    .image-container img{
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .form-container{
+        width: 55%;
+        height: 70vh;
+        margin: 0%;    
+    }
+    
+    .form-container-elements{
+        width: 95%;
+        height: 65vh;
+        margin: 2.5vh 2.5% 2.5vh 2.5%;
+    }
+    
+    .form-container-title{
+        width: 100%;
+        height: 5vh;
+        text-align: center;
+    }
+    
+    .form-container-title h1{
+        color: #ffffff;
+        font-size: 2em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-up{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-container-name{
+        width: 98%;
+        height: 8vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-name label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-name input{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-contact{
+        width: 98%;
+        height: 8vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-contact label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-contact input{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-email{
+        width: 98%;
+        height: 8vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-email label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-email input{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-service{
+        width: 98%;
+        height: 8vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-service label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-service select{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-message{
+        width: 98%;
+        height: 14vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-message label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-message textarea{
+        width: 95%;
+        height: 10vh;
+        margin: 0.5vh 2.5% 0.5vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-button{
+        width: 30%;
+        height: 5vh;
+        margin-left: 4%;
+    }
+    
+    .form-container-button button{
+        width: 95%;
+        height: 5vh;
+        background-color: #3EA7A4;
+        font-size: 1.8em;
+        text-align: center;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .floating-button{
+        width: 28%;
+        height: 10vh;
+        position: fixed;
+        bottom: 11%;
+        right: 2.2%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 95%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 1vh 2.5% 1vh 2.5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin-top: 6%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        font-size: 2.8em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 2vh;
+        margin: 2vh 0% 0.8vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 1.8em;
+    }
+
+    /*RESPONSIVE PARA MODAL*/
+    .close-modal{
+        width: 5%;
+        height: 5vh;
+        position: absolute;    
+        cursor: pointer;
+        text-align: center;
+        top:1%; 
+        right:1%;
+    }
+    
+    .close-modal-button{
+        color: #ffffff;
+        font-size: 1em;
+    }
+    
+    .dialog-container{
+        width: 90%;
+        height: 67vh;  
+        padding: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden; 
+        border-radius: 10px;
+    }
+    
+    .dialog-container-elements{
+        width: 100%;
+        height: 67vh;  
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+    }
+    
+    .image-container{
+        width: 45%;
+        height: 67vh;
+    }
+    
+    .image-container img{
+        width: 100%;
+        height: 67vh;
+    }
+    
+    .form-container{
+        width: 55%;
+        height: 67vh;
+        margin: 0%;    
+    }
+    
+    .form-container-elements{
+        width: 95%;
+        height: 62vh;
+        margin: 2.5vh 2.5% 2.5vh 2.5%;
+    }
+    
+    .form-container-title{
+        width: 100%;
+        height: 5vh;
+        text-align: center;
+    }
+    
+    .form-container-title h1{
+        color: #ffffff;
+        font-size: 2em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-up{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-container-name{
+        width: 98%;
+        height: 8vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-name label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-name input{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-contact{
+        width: 98%;
+        height: 8vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-contact label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-contact input{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-email{
+        width: 98%;
+        height: 8vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-email label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-email input{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-service{
+        width: 98%;
+        height: 8vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-service label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-service select{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-message{
+        width: 98%;
+        height: 15vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-message label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-message textarea{
+        width: 95%;
+        height: 10vh;
+        margin: 0.5vh 2.5% 0.5vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-button{
+        width: 35%;
+        height: 6vh;
+        margin-left: 4%;
+    }
+    
+    .form-container-button button{
+        width: 95%;
+        height: 6vh;
+        background-color: #3EA7A4;
+        font-size: 2em;
+        text-align: center;
+        padding: 0%;
+    }
+}
+
 @media screen and (max-width: 1000px){
     .floating-button{
-        width: 20%;
+        width: 28%;
         height: 8vh;
         position: fixed;
-        bottom: 70px;
-        right: 20px;
+        bottom: 11%;
+        right: 2%;
         z-index: 2;
     }
     
     .contact{
-        width: 90%;
-        height: 6vh;
+        width: 95%;
+        height: 7vh;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin: 0.8vh 3% 0.8vh 3%;
+        margin: 1vh 2.5% 1vh 2.5%;
         text-decoration: none;
         background: #3EA7A4;
         color:#ffffff;
-        border-radius: 25px;
+        border-radius: 20px;
         text-align: center;
     }
     
     .contact-icon{
         width: 25%;
         height: 4vh;
-        margin: 2vh 0% 0.7vh 2%;
+        margin-top: 8%;
         cursor: pointer; 
         text-align: center;
     }
     
     .contact-icon i{
-        margin: 0%;
-        padding: 0%;
-        font-size: 2em;
+        font-size: 2.3em;
     }
     
     .contact-p{
         width: 65%;
-        height: 4vh;
-        margin: 1.5vh 0% 1.5vh 0%;
+        height: 2vh;
+        margin: 1.4vh 0% 0.8vh 0%;
         text-align: left;
     }
     
     .contact-p p{
         font-family: 'Righteous', cursive;
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
-}
 
-@media screen and (max-width: 700px){
-    
-    .floating-button{
-        width: 20%;
-        height: 8vh;
-        position: fixed;
-        bottom: 70px;
-        right: 20px;
-        z-index: 2;
-    }
-    
-    .contact{
-        width: 90%;
-        height: 6vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin: 0.8vh 3% 0.8vh 3%;
-        text-decoration: none;
-        background: #3EA7A4;
-        color:#ffffff;
-        border-radius: 25px;
+    /*RESPONSIVE PARA MODAL*/
+    .close-modal{
+        width: 5%;
+        height: 5vh;
+        position: absolute;    
+        cursor: pointer;
         text-align: center;
+        top:1%; 
+        right:1%;
     }
     
-    .contact-icon{
-        width: 25%;
-        height: 4vh;
-        margin: 2vh 0% 0.7vh 2%;
-        cursor: pointer; 
-        text-align: center;
-    }
-    
-    .contact-icon i{
-        margin: 0%;
-        padding: 0%;
-        font-size: 2em;
-    }
-    
-    .contact-p{
-        width: 65%;
-        height: 4vh;
-        margin: 1.5vh 0% 1.5vh 0%;
-        text-align: left;
-    }
-    
-    .contact-p p{
-        font-family: 'Righteous', cursive;
-        font-size: 1.2em;
-    }
-}
-
-@media screen and (max-width: 450px){
-    .floating-button{
-        width: 20%;
-        height: 4vh;
-        position: fixed;
-        bottom: 70px;
-        right: 20px;
-        z-index: 2;
-    }
-    
-    .contact{
-        width: 90%;
-        height: 3vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin: 0.4vh 1.5% 0.4vh 1.5%;
-        text-decoration: none;
-        background: #3EA7A4;
-        color:#ffffff;
-        border-radius: 25px;
-        text-align: center;
-    }
-    
-    .contact-icon{
-        width: 25%;
-        height: 4vh;
-        margin: 1vh 0% 0.3vh 1%;
-        cursor: pointer; 
-        text-align: center;
-    }
-    
-    .contact-icon i{
-        margin: 0%;
-        padding: 0%;
+    .close-modal-button{
+        color: #ffffff;
         font-size: 1em;
+    }
+    
+    .dialog-container{
+        width: 95%;
+        height: 70vh;  
+        padding: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden; 
+        border-radius: 10px;
+    }
+    
+    .dialog-container-elements{
+        width: 100%;
+        height: 70vh;  
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+    }
+    
+    .image-container{
+        width: 45%;
+        height: 70vh;
+    }
+    
+    .image-container img{
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .form-container{
+        width: 55%;
+        height: 70vh;
+        margin: 0%;    
+    }
+    
+    .form-container-elements{
+        width: 95%;
+        height: 65vh;
+        margin: 2.5vh 2.5% 2.5vh 2.5%;
+    }
+    
+    .form-container-title{
+        width: 100%;
+        height: 5vh;
+        text-align: center;
+    }
+    
+    .form-container-title h1{
+        color: #ffffff;
+        font-size: 2em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-up{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-container-name{
+        width: 98%;
+        height: 8vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-name label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-name input{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-contact{
+        width: 98%;
+        height: 8vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-contact label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-contact input{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-email{
+        width: 98%;
+        height: 8vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-email label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-email input{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-service{
+        width: 98%;
+        height: 8vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-service label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-service select{
+        width: 95%;
+        height: 5vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-message{
+        width: 98%;
+        height: 16vh;
+        margin: 0.5vh 1% 0.5vh 1%
+    }
+    
+    .form-container-message label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-message textarea{
+        width: 95%;
+        height: 10vh;
+        margin: 0.5vh 2.5% 0.5vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-button{
+        width: 35%;
+        height: 6vh;
+        margin-left: 4%;
+    }
+    
+    .form-container-button button{
+        width: 95%;
+        height: 6vh;
+        background-color: #3EA7A4;
+        font-size: 2em;
+        text-align: center;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .floating-button{
+        width: 25%;
+        height: 8vh;
+        position: fixed;
+        bottom: 11%;
+        right: 2%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 95%;
+        height: 7vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 1vh 2.5% 1vh 2.5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin-top: 12%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        font-size: 1.8em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 2vh;
+        margin: 1.8vh 0% 0.8vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 1.3em;
+    }
+
+    /* RESPONSIVE PARA MODAL */
+    .close-modal{
+        width: 5%;
+        height: 5vh;
+        position: absolute;    
+        cursor: pointer;
+        text-align: center;
+        top:1%; 
+        right:1%;
+    }
+    
+    .close-modal-button{
+        color: #ffffff;
+        font-size: 1em;
+    }
+    
+    .dialog-container{
+        width: 100%;
+        height: 68vh;  
+        padding: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden; 
+        border-radius: 10px;
+    }
+    
+    .dialog-container-elements{
+        width: 100%;
+        height: 68vh;  
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    .image-container{
+        width: 100%;
+        height: 18vh;
+    }
+    
+    .image-container img{
+        width: 35%;
+        height: 15vh;
+        border-radius: 100%;
+        margin: 1.5vh 32.5% 1.5vh 32.5%;
+    }
+    
+    .form-container{
+        width: 100%;
+        height: 50vh;
+        margin: 0%; 
+    }
+    
+    .form-container-elements{
+        width: 95%;
+        height: 48vh;
+        margin: 1vh 2.5% 1vh 2.5%;
+    }
+    
+    .form-container-title{
+        width: 100%;
+        height: 4vh;
+        text-align: center;
+    }
+    
+    .form-container-title h1{
+        color: #ffffff;
+        font-size: 2em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-up{
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .form-container-name{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-name label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-name input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-contact{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-contact label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-contact input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-email{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-email label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-email input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-service{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-service label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-service select{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-message{
+        width: 98%;
+        height: 11vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-message label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-message textarea{
+        width: 95%;
+        height: 6vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-button{
+        width: 30%;
+        height: 5vh;
+        margin-left: 4%;
+    }
+    
+    .form-container-button button{
+        width: 95%;
+        height: 5vh;
+        background-color: #3EA7A4;
+        font-size: 2em;
+        text-align: center;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .floating-button{
+        width: 30%;
+        height: 8vh;
+        position: fixed;
+        bottom: 10%;
+        right: 2%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 95%;
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0.8vh 2.5% 1vh 2.5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin-top: 10%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        font-size: 1.8em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 2vh;
+        margin: 1.5vh 0% 0.8vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 1.2em;
+    }
+
+    /* RESPONSIVE PARA MODAL */
+    .close-modal{
+        width: 5%;
+        height: 5vh;
+        position: absolute;    
+        cursor: pointer;
+        text-align: center;
+        top:1%; 
+        right:1%;
+    }
+    
+    .close-modal-button{
+        color: #ffffff;
+        font-size: 1em;
+    }
+    
+    .dialog-container{
+        width: 100%;
+        height: 68vh;  
+        padding: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden; 
+        border-radius: 10px;
+    }
+    
+    .dialog-container-elements{
+        width: 100%;
+        height: 68vh;  
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    .image-container{
+        width: 100%;
+        height: 18vh;
+    }
+    
+    .image-container img{
+        width: 35%;
+        height: 15vh;
+        border-radius: 100%;
+        margin: 1.5vh 32.5% 1.5vh 32.5%;
+    }
+    
+    .form-container{
+        width: 100%;
+        height: 50vh;
+        margin: 0%; 
+    }
+    
+    .form-container-elements{
+        width: 95%;
+        height: 48vh;
+        margin: 1vh 2.5% 1vh 2.5%;
+    }
+    
+    .form-container-title{
+        width: 100%;
+        height: 4vh;
+        text-align: center;
+    }
+    
+    .form-container-title h1{
+        color: #ffffff;
+        font-size: 2em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-up{
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .form-container-name{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-name label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-name input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-contact{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-contact label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-contact input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-email{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-email label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-email input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-service{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-service label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-service select{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-message{
+        width: 98%;
+        height: 11vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-message label{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-message textarea{
+        width: 95%;
+        height: 6vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-button{
+        width: 30%;
+        height: 5vh;
+        margin-left: 4%;
+    }
+    
+    .form-container-button button{
+        width: 95%;
+        height: 5vh;
+        background-color: #3EA7A4;
+        font-size: 2em;
+        text-align: center;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .floating-button{
+        width: 30%;
+        height: 8vh;
+        position: fixed;
+        bottom: 9.5%;
+        right: 2%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 95%;
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0.8vh 2.5% 1vh 2.5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin-top: 10%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        font-size: 1.6em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 2vh;
+        margin: 1.4vh 0% 0.8vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 1em;
+    }
+
+    /* RESPONSIVE PARA MODAL */
+    .close-modal{
+        width: 5%;
+        height: 5vh;
+        position: absolute;    
+        cursor: pointer;
+        text-align: center;
+        top:1%; 
+        right:1%;
+    }
+    
+    .close-modal-button{
+        color: #ffffff;
+        font-size: 1em;
+    }
+    
+    .dialog-container{
+        width: 100%;
+        height: 68vh;  
+        padding: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden; 
+        border-radius: 10px;
+    }
+    
+    .dialog-container-elements{
+        width: 100%;
+        height: 68vh;  
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    .image-container{
+        width: 100%;
+        height: 18vh;
+    }
+    
+    .image-container img{
+        width: 35%;
+        height: 15vh;
+        border-radius: 100%;
+        margin: 1.5vh 32.5% 1.5vh 32.5%;
+    }
+    
+    .form-container{
+        width: 100%;
+        height: 50vh;
+        margin: 0%; 
+    }
+    
+    .form-container-elements{
+        width: 95%;
+        height: 48vh;
+        margin: 1vh 2.5% 1vh 2.5%;
+    }
+    
+    .form-container-title{
+        width: 100%;
+        height: 4vh;
+        text-align: center;
+    }
+    
+    .form-container-title h1{
+        color: #ffffff;
+        font-size: 1.8em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-up{
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .form-container-name{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-name label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-name input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-contact{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-contact label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-contact input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-email{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-email label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-email input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-service{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-service label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-service select{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-message{
+        width: 98%;
+        height: 11vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-message label{
+        color: #ffffff;
+        font-size: 1em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-message textarea{
+        width: 95%;
+        height: 6vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-button{
+        width: 30%;
+        height: 5vh;
+        margin-left: 4%;
+    }
+    
+    .form-container-button button{
+        width: 95%;
+        height: 5vh;
+        background-color: #3EA7A4;
+        font-size: 1.2em;
+        text-align: center;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .floating-button{
+        width: 40%;
+        height: 8vh;
+        position: fixed;
+        bottom: 9.5%;
+        right: 2%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 95%;
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0.8vh 2.5% 1vh 2.5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin: 7%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        font-size: 1.2em;
+    }
+    
+    .contact-p{
+        width: 65%;
+        height: 2vh;
+        margin: 1vh 0% 0.8vh 0%;
+        text-align: left;
+    }
+    
+    .contact-p p{
+        font-family: 'Righteous', cursive;
+        font-size: 0.9  em;
+    }
+
+    /* RESPONSIVE PARA MODAL */
+    .close-modal{
+        width: 5%;
+        height: 5vh;
+        position: absolute;    
+        cursor: pointer;
+        text-align: center;
+        top:1%; 
+        right:1%;
+    }
+    
+    .close-modal-button{
+        color: #ffffff;
+        font-size: 1em;
+    }
+    
+    .dialog-container{
+        width: 100%;
+        height: 68vh;  
+        padding: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden; 
+        border-radius: 10px;
+    }
+    
+    .dialog-container-elements{
+        width: 100%;
+        height: 68vh;  
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    .image-container{
+        width: 100%;
+        height: 18vh;
+    }
+    
+    .image-container img{
+        width: 35%;
+        height: 15vh;
+        border-radius: 100%;
+        margin: 1.5vh 32.5% 1.5vh 32.5%;
+    }
+    
+    .form-container{
+        width: 100%;
+        height: 50vh;
+        margin: 0%; 
+    }
+    
+    .form-container-elements{
+        width: 95%;
+        height: 48vh;
+        margin: 1vh 2.5% 1vh 2.5%;
+    }
+    
+    .form-container-title{
+        width: 100%;
+        height: 4vh;
+        text-align: center;
+    }
+    
+    .form-container-title h1{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-up{
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .form-container-name{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-name label{
+        color: #ffffff;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-name input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-contact{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-contact label{
+        color: #ffffff;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-contact input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-email{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-email label{
+        color: #ffffff;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-email input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-service{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-service label{
+        color: #ffffff;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-service select{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-message{
+        width: 98%;
+        height: 11vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-message label{
+        color: #ffffff;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-message textarea{
+        width: 95%;
+        height: 6vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-button{
+        width: 30%;
+        height: 5vh;
+        margin-left: 4%;
+    }
+    
+    .form-container-button button{
+        width: 95%;
+        height: 5vh;
+        background-color: #3EA7A4;
+        font-size: 1em;
+        text-align: center;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    /* RESPONSIVE PARA BOTÓN */
+    .floating-button{
+        width: 35%;
+        height: 7vh;
+        position: fixed;
+        bottom: 10.5%;
+        right: 2%;
+        z-index: 2;
+    }
+    
+    .contact{
+        width: 95%;
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0.8vh 2.5% 1vh 2.5%;
+        text-decoration: none;
+        background: #3EA7A4;
+        color:#ffffff;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .contact-icon{
+        width: 25%;
+        height: 4vh;
+        margin: 1.5%;
+        cursor: pointer; 
+        text-align: center;
+    }
+    
+    .contact-icon i{
+        font-size: 0.8em;
     }
     
     .contact-p{
@@ -388,6 +2135,203 @@
     
     .contact-p p{
         font-family: 'Righteous', cursive;
+        font-size: 0.8em;
+    }
+
+
+    /* RESPONSIVE PARA MODAL */
+    .close-modal{
+        width: 5%;
+        height: 5vh;
+        position: absolute;    
+        cursor: pointer;
+        text-align: center;
+        top:1%; 
+        right:1%;
+    }
+    
+    .close-modal-button{
+        color: #ffffff;
+        font-size: 1em;
+    }
+    
+    .dialog-container{
+        width: 100%;
+        height: 66vh;  
+        padding: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden; 
+        border-radius: 10px;
+    }
+    
+    .dialog-container-elements{
+        width: 100%;
+        height: 66vh;  
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    
+    .image-container{
+        width: 100%;
+        height: 16vh;
+    }
+    
+    .image-container img{
+        width: 35%;
+        height: 15vh;
+        border-radius: 100%;
+        margin: 1.5vh 32.5% 1.5vh 32.5%;
+    }
+    
+    .form-container{
+        width: 100%;
+        height: 50vh;
+        margin: 0%; 
+    }
+    
+    .form-container-elements{
+        width: 95%;
+        height: 48vh;
+        margin: 1vh 2.5% 1vh 2.5%;
+    }
+    
+    .form-container-title{
+        width: 100%;
+        height: 4vh;
+        text-align: center;
+    }
+    
+    .form-container-title h1{
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-up{
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .form-container-name{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-name label{
+        color: #ffffff;
         font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-name input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-contact{
+        width: 48%;
+        height: 11vh;
+        margin: 0vh 1% 0vh 1%
+    }
+    
+    .form-container-contact label{
+        color: #ffffff;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-contact input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-email{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-email label{
+        color: #ffffff;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-email input{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .form-container-service{
+        width: 98%;
+        height: 9vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-service label{
+        color: #ffffff;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-service select{
+        width: 95%;
+        height: 4.8vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-message{
+        width: 98%;
+        height: 11vh;
+        margin: 0%;
+        margin-left: 1%;
+    }
+    
+    .form-container-message label{
+        color: #ffffff;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        margin: 0%;
+    }
+    
+    .form-container-message textarea{
+        width: 95%;
+        height: 6vh;
+        margin: 0vh 2.5% 0vh 2.5%;
+        font-family: 'Righteous', cursive;
+        font-size: 0.9em;
+    }
+    
+    .form-container-button{
+        width: 30%;
+        height: 5vh;
+        margin-left: 4%;
+    }
+    
+    .form-container-button button{
+        width: 95%;
+        height: 5vh;
+        background-color: #3EA7A4;
+        font-size: 1em;
+        text-align: center;
+        padding: 0%;
     }
 }
