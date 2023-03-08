@@ -12,7 +12,8 @@ export class ContactusComponent {
               {id: 3, value : "Chatbot"},
               {id: 4, value : "Páginas web"},
               {id: 5, value : "Aplicación móvil"},
-              {id: 6, value : "Desarrollo web"}];
+              {id: 6, value : "Desarrollo web"},
+              {id: 7, value : "Otro"}];
 
   constructor() { }
 
