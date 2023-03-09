@@ -1,40 +1,28 @@
 .header-container{
     width: 100%;
-    height: 5em;
+    height: 8vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.header-rigth-part{
-    width: 48%;
-    height: 5em;
-}
-
 .header-logo{
-    width: 30%;
-    height: 3em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-.header-logo:hover{
+    width: 20%;
+    height: 6vh;
+    margin-top: 1vh;
+    margin: 1vh 1% 1vh 1%;
     cursor: pointer;
 }
 
 .header-logo img{
     width: 100%;
-    height: 3em;
-}
-
-.header-left-part{
-    width: 48%;
-    height: 5em;
+    height: 6vh;
 }
 
 .header-links{
-    width: 100%;
-    height: 5em;
+    width: 50%;
+    height: 6vh;
+    margin: 1vh 1% 1vh 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -42,62 +30,49 @@
 
 .div-link{
     width: 20%;
-    height: 3em;
-    margin-top: 1em;
+    height: 4vh;
+    margin: auto;
 }
 
 .link{
     width: 100%;
     margin: auto;
     color: #383838;
-    font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    font-family: 'Righteous', cursive;
     font-weight: bold;
     text-decoration: none;
     display: flex;
     justify-content: center;
-    margin-top: 0.8em;
-}
-
-.div-link:hover{
-    transform: scale(1.1);
     cursor: pointer;
 }
 
 @media screen and (max-width: 1000px){
     .header-container{
         width: 100%;
-        height: 4em;
+        height: 6vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-
-    .header-rigth-part{
-        width: 42%;
-        height: 4em;
-    }
     
     .header-logo{
-        width: 50%;
-        height: 2em;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        width: 23%;
+        height: 4vh;
+        margin-top: 1vh;
+        margin: 1vh 1% 1vh 1%;
+        cursor: pointer;
     }
-
+    
     .header-logo img{
         width: 100%;
-        height: 1.5em;
-    }
-
-    .header-left-part{
-        width: 54%;
-        height: 4em;
+        height: 4vh;
     }
     
     .header-links{
-        width: 100%;
-        height: 4em;
+        width: 73%;
+        height: 4vh;
+        margin: 1vh 1% 1vh 1%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -105,58 +80,101 @@
     
     .div-link{
         width: 20%;
-        height: 2em;
-        margin-top: 1em;
+        height: 2vh;
+        margin: auto;
     }
     
     .link{
         width: 100%;
         margin: auto;
-        color: black;
-        font-size: 0.8em;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #383838;
+        font-size: 1.1em;
+        font-family: 'Righteous', cursive;
         font-weight: bold;
         text-decoration: none;
         display: flex;
         justify-content: center;
-        margin-top: 0.8em;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header-container{
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .header-logo{
+        width: 23%;
+        height: 4vh;
+        margin-top: 1vh;
+        margin: 1vh 1% 1vh 1%;
+        cursor: pointer;
+    }
+    
+    .header-logo img{
+        width: 100%;
+        height: 4vh;
+    }
+    
+    .header-links{
+        width: 73%;
+        height: 4vh;
+        margin: 1vh 1% 1vh 1%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .div-link{
+        width: 20%;
+        height: 2vh;
+        margin: auto;
+    }
+    
+    .link{
+        width: 100%;
+        margin: auto;
+        color: #383838;
+        font-size: 0.9em;
+        font-family: 'Righteous', cursive;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
     }
 }
 
 @media screen and (max-width: 600px){
     .header-container{
         width: 100%;
-        height: 3em;
+        height: 6vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-
-    .header-rigth-part{
-        width: 38%;
-        height: 3em;
-    }
     
     .header-logo{
-        width: 70%;
-        height: 1.5em;
-        margin-top: 0.5em;
-        margin-bottom: 1em;
+        width: 23%;
+        height: 4vh;
+        margin-top: 1vh;
+        margin: 1vh 1% 1vh 1%;
+        cursor: pointer;
     }
-
+    
     .header-logo img{
         width: 100%;
-        height: 1.5em;
-    }
-
-    .header-left-part{
-        width: 58%;
-        height: 3em;
+        height: 4vh;
     }
     
     .header-links{
-        width: 100%;
-        height: 3em;
+        width: 73%;
+        height: 4vh;
+        margin: 1vh 1% 1vh 1%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -164,20 +182,72 @@
     
     .div-link{
         width: 20%;
-        height: 1.5em;
-        margin-top: 0.5em;
+        height: 2vh;
+        margin: auto;
     }
     
     .link{
         width: 100%;
         margin: auto;
-        color: black;
-        font-size: 0.3em;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #383838;
+        font-size: 0.7em;
+        font-family: 'Righteous', cursive;
         font-weight: bold;
         text-decoration: none;
         display: flex;
         justify-content: center;
-        margin-top: 0.8em;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .header-container{
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .header-logo{
+        width: 23%;
+        height: 4vh;
+        margin-top: 1vh;
+        margin: 1vh 1% 1vh 1%;
+        cursor: pointer;
+    }
+    
+    .header-logo img{
+        width: 100%;
+        height: 4vh;
+    }
+    
+    .header-links{
+        width: 73%;
+        height: 4vh;
+        margin: 1vh 1% 1vh 1%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .div-link{
+        width: 20%;
+        height: 2vh;
+        margin: auto;
+    }
+    
+    .link{
+        width: 100%;
+        margin: auto;
+        color: #383838;
+        font-size: 0.6em;
+        font-family: 'Righteous', cursive;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
     }
 }
