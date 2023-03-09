@@ -56,8 +56,9 @@
 }
 
 .etereo{
-    width: 100%;
+    width: 80%;
     height: 8vh;
+    margin-left: 20%;
 }
 
 @media screen and (max-width: 1750px){
