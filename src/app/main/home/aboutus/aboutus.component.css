@@ -130,6 +130,7 @@
     height: 50vh;
     display: flex;
     flex-direction: column;
+    margin: 0% 3% 0% 3%;
 }
 
 .option-img{
