@@ -56,7 +56,7 @@
     cursor: pointer;
     text-align: center;
     top:1%; 
-    right:1%;
+    right:-1%;
 }
 
 .close-modal-button{
@@ -98,10 +98,12 @@
 }
 
 .form-container-elements{
-    border: 2px solid blue;
-    width: 95%;
-    height: 50vh;
-    margin: 2.5vh 2.5% 2.5vh 2.5%;
+    width: 85%;
+    height: 59.5vh;
+    margin: 0% 0% 0% 8%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .form-container-title{
@@ -112,14 +114,15 @@
 
 .form-container-title h1{
     color: #ffffff;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: 'Righteous', cursive;
 }
 
 .form-container-up{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .form-container-name{
@@ -139,11 +142,16 @@
     height: 5vh;
     margin-top: 1vh;
     font-family: 'Righteous', cursive;
+    border-radius: 0%;
 }
 
 .form-container-contact{
-    width: 48%;
+    width: 50%;
     height: 10vh;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .form-container-contact label{
@@ -158,11 +166,13 @@
     height: 5vh;
     margin-top: 1vh;
     font-family: 'Righteous', cursive;
+    border-radius: 0%;
 }
 
 .form-container-email{
-    width: 98%;
+    width: 100%;
     height: 10vh;
+
 }
 
 .form-container-email label{
@@ -173,14 +183,15 @@
 }
 
 .form-container-email input{
-    width: 95%;
+    width: 100%;
     height: 5vh;
     margin-top: 1vh;
     font-family: 'Righteous', cursive;
+    border-radius: 0%;
 }
 
 .form-container-service{
-    width: 98%;
+    width: 100%;
     height: 10vh;
 }
 
@@ -192,15 +203,16 @@
 }
 
 .form-container-service select{
-    width: 95%;
+    width: 100%;
     height: 5vh;
     margin-top: 1vh;
     font-family: 'Righteous', cursive;
     font-size: 0.9em;
+    border-radius: 0%;
 }
 
 .form-container-message{
-    width: 98%;
+    width: 100%;
     height: 15vh;
 }
 
@@ -212,11 +224,12 @@
 }
 
 .form-container-message textarea{
-    width: 95%;
+    width: 100%;
     height: 9vh;
     margin-top: 1vh;
     font-family: 'Righteous', cursive;
     font-size: 0.9em;
+    border-radius: 0%;
 }
 
 .form-container-down{
