@@ -65,16 +65,16 @@ export class ContactusComponent {
   sendEmail(){    
     if (this.registerForm.valid){
       this.formValidator = false;      
-      const email = this.registerForm.value;
-      const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-      this.http.post('https://formspree.io/xknablda'  
-        ,{ name: email.fullname, replyto: email.email, message: email.menssage }
-        ,{ 'headers': headers }).subscribe(
-        response => {
-          this.closeDialog();      
-          this.envioCorrecto.nativeElement.showModal();
-        }
-      );
+      // const email = this.registerForm.value;
+      // const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+      // this.http.post('https://formspree.io/xknablda'  
+      //   ,{ name: email.fullname, replyto: email.email, message: email.menssage }
+      //   ,{ 'headers': headers }).subscribe(
+      //   response => {
+      //     this.closeDialog();      
+      //     this.envioCorrecto.nativeElement.showModal();
+      //   }
+      // );
     }else{
       this.formValidator = true;
     }

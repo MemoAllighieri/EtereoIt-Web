@@ -30,12 +30,12 @@
 .email-container-email{
     width: 75%;
     height: 4vh;
-    margin-top: 1.5vh;
+    margin-top: 1.8vh;
 }
 
 .email-container-email a{
     color: white;
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: 'Righteous', cursive;
     text-decoration: none;
 }

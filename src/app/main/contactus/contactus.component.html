@@ -14,7 +14,7 @@
     </div>     
     <div class="dialog-container-elements">
         <div class="image-container">
-            <img src="../../../../assets/images/aboutus/reu.jpg">
+            <img src="../../../../assets/images/contact/Contactanos.jpg"/>
         </div>
         <div class="form-container">       
             <div class="form-container-elements">  
@@ -46,13 +46,15 @@
                     </div>
                     <div class="form-container-message">
                         <label for="message" class="form-label">MENSAJE:</label>
-                        <textarea class="form-control" id="message" rows="4" formControlName="menssage"></textarea>
+                        <textarea class="form-control" id="message" rows="3" formControlName="menssage"></textarea>
                     </div>
-                    <div class="form-container-button">
-                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary button-submit" type="submit">Enviar</button>
-                    </div>
-                    <div *ngIf="formValidator" class="form-container-message-error">
-                        <label>Complete los campos correctamente!</label>                        
+                    <div class="form-container-down">
+                        <div class="form-container-button">
+                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary button-submit" type="submit">Enviar</button>
+                        </div>
+                        <div *ngIf="formValidator" class="form-container-message-error">
+                            <label>Complete los campos correctamente</label>                        
+                        </div>
                     </div>
                 </form>                
             </div>            
