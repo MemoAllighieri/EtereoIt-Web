@@ -14,7 +14,7 @@ export class ContactusComponent {
 
   @ViewChild('dialog') dialog!: ElementRef<HTMLDialogElement>;
   @ViewChild('envioCorrecto') envioCorrecto!: ElementRef<HTMLDialogElement>;
-  
+
   formValidator: boolean = false;
 
   registerForm = this.formBuilder.group({
@@ -62,7 +62,7 @@ export class ContactusComponent {
     });
   }
 
-  SendEmail(){    
+  sendEmail(){    
     if (this.registerForm.valid){
       this.formValidator = false;      
       const email = this.registerForm.value;
