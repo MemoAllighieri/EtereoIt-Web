@@ -14,7 +14,7 @@
 
 .services-title h1{
    font-size: 2.5em;
-   font-family: 'Righteous', cursive;
+
    margin-top: 3%;
 }
 
@@ -64,7 +64,7 @@
    margin: 0%;
    padding: 2%;
    font-size: 1.5em;
-   font-family: 'Righteous', cursive;
+
    color: white;
 }
 
@@ -73,7 +73,7 @@
    height: 21.5vh;
    margin: 0%;
    font-size: 0.8em;
-   font-family: 'Righteous', cursive;
+
    color: white;
    padding: 5%;
    text-align: justify;
@@ -97,7 +97,7 @@
 
    .services-title h1{
       font-size: 2em;
-      font-family: 'Righteous', cursive;
+   
       margin: auto;
    }
 
@@ -148,7 +148,7 @@
       margin: 0%;
       padding: 0%;
       font-size: 1em;
-      font-family: 'Righteous', cursive;
+   
       color: white;
    }
    
@@ -157,7 +157,7 @@
       height: 14vh;
       margin: 0%;
       font-size: 0.7em;
-      font-family: 'Righteous', cursive;
+   
       color: white;
    }
 }
@@ -179,7 +179,7 @@
 
    .services-title h1{
       font-size: 2em;
-      font-family: 'Righteous', cursive;
+   
       margin: auto;
    }
 
@@ -230,7 +230,7 @@
       margin: 0%;
       padding: 0%;
       font-size: 0.8em;
-      font-family: 'Righteous', cursive;
+   
       color: white;
    }
    
@@ -239,7 +239,7 @@
       height: 14vh;
       margin: 0%;
       font-size: 0.6em;
-      font-family: 'Righteous', cursive;
+   
       color: white;
    }
 }
@@ -261,7 +261,7 @@
 
    .services-title h1{
       font-size: 1.5em;
-      font-family: 'Righteous', cursive;
+   
       margin: auto;
    }
 
@@ -312,7 +312,7 @@
       margin: 0%;
       padding: 0%;
       font-size: 0.6em;
-      font-family: 'Righteous', cursive;
+   
       color: white;
    }
    
@@ -321,7 +321,7 @@
       height: 14vh;
       margin: 0%;
       font-size: 0.3em;
-      font-family: 'Righteous', cursive;
+   
       color: white;
    }
 }

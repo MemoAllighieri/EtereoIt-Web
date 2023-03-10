@@ -38,7 +38,7 @@
 }
 
 .banner-title h3{
-    font-family: 'Righteous', cursive;
+    
     font-size: 3em;
     color: white;
     padding: 0%;
@@ -52,7 +52,7 @@
 }
 
 .banner-subtitle h4{
-    font-family: 'Righteous', cursive;
+    
     font-size: 1.7em;
     color: white;
     padding: 0%;
@@ -66,7 +66,7 @@
 }
 
 .banner-p p{
-    font-family: 'Righteous', cursive;
+    
     font-size: 1em;
     color: white;
 }
@@ -86,7 +86,7 @@
 .choose-title h1{
     font-size: 3.5em;
     font-weight: bold;
-    font-family: 'Righteous', cursive;
+    
     color: black;
     padding: 0%;
     margin: 0%;
@@ -101,7 +101,7 @@
 .choose-subtitle h2{
     font-size: 2.5em;
     font-weight: lighter;
-    font-family: 'Righteous', cursive;
+    
     color: black;
     padding: 0%;
     margin: 0%;
@@ -110,7 +110,7 @@
 
 .choose-subtitle p{
     font-size: 1em;
-    font-family: 'Righteous', cursive;
+    
     font-weight: lighter;
     width: 80%;
     margin-left: 10%;
@@ -153,7 +153,7 @@
     height: 35vh;
     background-color: #3ea7a4;
     border-radius: 5%;
-    font-family: 'Righteous', cursive;
+    
     text-align: center;
     color: white;
     display: flex;
@@ -219,7 +219,7 @@
     }
 
     .banner-title h3{
-        font-family: 'Righteous', cursive;
+        
         font-size: 3em;
         color: white;
         padding: 0%;
@@ -233,7 +233,7 @@
     }
 
     .banner-subtitle h4{
-        font-family: 'Righteous', cursive;
+        
         font-size: 1.2em;
         color: white;
         padding: 0%;
@@ -247,7 +247,7 @@
     }
 
     .banner-p p{
-        font-family: 'Righteous', cursive;
+        
         font-size: 1em;
         color: white;
     }
@@ -267,7 +267,7 @@
     .choose-title h1{
         font-size: 2.5em;
         font-weight: bold;
-        font-family: 'Righteous', cursive;
+        
         color: black;
         padding: 0%;
         margin: 0%;
@@ -282,7 +282,7 @@
     .choose-subtitle h2{
         font-size: 2.5em;
         font-weight: lighter;
-        font-family: 'Righteous', cursive;
+        
         color: black;
         padding: 0%;
         margin: 0%;
@@ -291,7 +291,7 @@
 
     .choose-subtitle p{
         font-size: 0.5em;
-        font-family: 'Righteous', cursive;
+        
         font-weight: lighter;
         width: 80%;
         margin-left: 10%;
@@ -333,7 +333,7 @@
         height: 27vh;
         background-color: #3ea7a4;
         border-radius: 5%;
-        font-family: 'Righteous', cursive;
+        
         text-align: center;
         color: white;
         display: flex;
@@ -375,7 +375,7 @@
 
     .text-container p {
         font-size: 0.5em;
-        font-family: 'Righteous', cursive;
+        
         color:white;
         width: 75%;
         height: 13vh;
@@ -434,7 +434,7 @@
     }
 
     .banner-title h3{
-        font-family: 'Righteous', cursive;
+        
         font-size: 3em;
         color: white;
         padding: 0%;
@@ -448,7 +448,7 @@
     }
 
     .banner-subtitle h4{
-        font-family: 'Righteous', cursive;
+        
         font-size: 1.2em;
         color: white;
         padding: 0%;
@@ -462,7 +462,7 @@
     }
 
     .banner-p p{
-        font-family: 'Righteous', cursive;
+        
         font-size: 1em;
         color: white;
     }
@@ -482,7 +482,7 @@
     .choose-title h1{
         font-size: 2.5em;
         font-weight: bold;
-        font-family: 'Righteous', cursive;
+        
         color: black;
         padding: 0%;
         margin: 0%;
@@ -497,7 +497,7 @@
     .choose-subtitle h2{
         font-size: 2.5em;
         font-weight: lighter;
-        font-family: 'Righteous', cursive;
+        
         color: black;
         padding: 0%;
         margin: 0%;
@@ -506,7 +506,7 @@
 
     .choose-subtitle p{
         font-size: 0.5em;
-        font-family: 'Righteous', cursive;
+        
         font-weight: lighter;
         width: 80%;
         margin-left: 10%;
@@ -548,7 +548,7 @@
         height: 27vh;
         background-color: #3ea7a4;
         border-radius: 5%;
-        font-family: 'Righteous', cursive;
+        
         text-align: center;
         color: white;
         display: flex;
@@ -590,7 +590,7 @@
 
     .text-container p {
         font-size: 0.5em;
-        font-family: 'Righteous', cursive;
+        
         color:white;
         width: 75%;
         height: 13vh;
@@ -649,7 +649,7 @@
     }
 
     .banner-title h3{
-        font-family: 'Righteous', cursive;
+        
         font-size: 1.5em;
         color: white;
         padding: 0%;
@@ -663,7 +663,7 @@
     }
 
     .banner-subtitle h4{
-        font-family: 'Righteous', cursive;
+        
         font-size: 0.6em;
         color: white;
         padding: 0%;
@@ -677,7 +677,7 @@
     }
 
     .banner-p p{
-        font-family: 'Righteous', cursive;
+        
         font-size: 0.5em;
         color: white;
     }
@@ -697,7 +697,7 @@
     .choose-title h1{
         font-size: 1.3em;
         font-weight: bold;
-        font-family: 'Righteous', cursive;
+        
         color: black;
         padding: 0%;
         margin: 0%;
@@ -712,7 +712,7 @@
     .choose-subtitle h2{
         font-size: 1.25em;
         font-weight: lighter;
-        font-family: 'Righteous', cursive;
+        
         color: black;
         padding: 0%;
         margin: 0%;
@@ -721,7 +721,7 @@
 
     .choose-subtitle p{
         font-size: 0.2em;
-        font-family: 'Righteous', cursive;
+        
         font-weight: lighter;
         width: 80%;
         margin-left: 10%;
@@ -763,7 +763,7 @@
         height: 13.5vh;
         background-color: #3ea7a4;
         border-radius: 5%;
-        font-family: 'Righteous', cursive;
+        
         text-align: center;
         color: white;
         display: flex;
@@ -805,7 +805,7 @@
 
     .text-container p {
         font-size: 0.25em;
-        font-family: 'Righteous', cursive;
+        
         color:white;
         width: 75%;
         height: 6.5vh;

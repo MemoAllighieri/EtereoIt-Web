@@ -28,14 +28,14 @@
 .team-text h1{
     margin: 0%;
     padding: 0%;
-    font-family: 'Righteous', cursive;
+ 
     font-size: 2em;
 }
 
 .team-text p{
     margin: 0%;
     padding: 0%;
-    font-family: 'Righteous', cursive;
+ 
     font-size: 0.9em;
     margin-top: 1vh;
 }
@@ -57,7 +57,7 @@
 
 .text-container p {
     font-size: 1em;
-    font-family: 'Righteous', cursive;
+ 
     color:white;
     width: 75%;
     height: 25vh;
@@ -105,14 +105,14 @@
     .team-text h1{
         margin: 0%;
         padding: 0%;
-        font-family: 'Righteous', cursive;
+     
         font-size: 0.8em;
     }
 
     .team-text p{
         margin: 0%;
         padding: 0%;
-        font-family: 'Righteous', cursive;
+     
         font-size: 0.4em;
         margin-top: 1vh;
     }
@@ -149,14 +149,14 @@
     .team-text h1{
         margin: 0%;
         padding: 0%;
-        font-family: 'Righteous', cursive;
+     
         font-size: 0.8em;
     }
 
     .team-text p{
         margin: 0%;
         padding: 0%;
-        font-family: 'Righteous', cursive;
+     
         font-size: 0.4em;
         margin-top: 1vh;
     }
@@ -193,14 +193,14 @@
     .team-text h1{
         margin: 0%;
         padding: 0%;
-        font-family: 'Righteous', cursive;
+     
         font-size: 0.8em;
     }
 
     .team-text p{
         margin: 0%;
         padding: 0%;
-        font-family: 'Righteous', cursive;
+     
         font-size: 0.3em;
         margin-top: 1vh;
     }

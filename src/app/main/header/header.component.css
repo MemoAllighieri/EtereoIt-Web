@@ -39,7 +39,6 @@
     margin: auto;
     color: #383838;
     font-size: 1.2em;
-    font-family: 'Righteous', cursive;
     font-weight: bold;
     text-decoration: none;
     display: flex;
@@ -89,7 +88,7 @@
         margin: auto;
         color: #383838;
         font-size: 1.1em;
-        font-family: 'Righteous', cursive;
+
         font-weight: bold;
         text-decoration: none;
         display: flex;
@@ -140,7 +139,7 @@
         margin: auto;
         color: #383838;
         font-size: 0.9em;
-        font-family: 'Righteous', cursive;
+
         font-weight: bold;
         text-decoration: none;
         display: flex;
@@ -191,7 +190,7 @@
         margin: auto;
         color: #383838;
         font-size: 0.7em;
-        font-family: 'Righteous', cursive;
+
         font-weight: bold;
         text-decoration: none;
         display: flex;
@@ -243,7 +242,7 @@
         margin: auto;
         color: #383838;
         font-size: 0.6em;
-        font-family: 'Righteous', cursive;
+
         font-weight: bold;
         text-decoration: none;
         display: flex;

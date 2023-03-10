@@ -24,7 +24,7 @@
 .email-container-title p{
     color: white;
     font-size: 2em;
-    font-family: 'Righteous', cursive;
+    
 }
 
 .email-container-email{
@@ -36,7 +36,7 @@
 .email-container-email a{
     color: white;
     font-size: 1.8em;
-    font-family: 'Righteous', cursive;
+    
     text-decoration: none;
 }
 
@@ -88,7 +88,7 @@
     .email-container-title p{
         color: white;
         font-size: 1.8em;
-        font-family: 'Righteous', cursive;
+        
     }
     
     .email-container-email{
@@ -100,7 +100,7 @@
     .email-container-email a{
         color: white;
         font-size: 1.8em;
-        font-family: 'Righteous', cursive;
+        
         text-decoration: none;
     }
     
@@ -152,7 +152,7 @@
     .email-container-title p{
         color: white;
         font-size: 1.5em;
-        font-family: 'Righteous', cursive;
+        
     }
     
     .email-container-email{
@@ -164,7 +164,7 @@
     .email-container-email a{
         color: white;
         font-size: 1.5em;
-        font-family: 'Righteous', cursive;
+        
         text-decoration: none;
     }
     
@@ -216,7 +216,7 @@
     .email-container-title p{
         color: white;
         font-size: 1.2em;
-        font-family: 'Righteous', cursive;
+        
     }
     
     .email-container-email{
@@ -228,7 +228,7 @@
     .email-container-email a{
         color: white;
         font-size: 1.2em;
-        font-family: 'Righteous', cursive;
+        
         text-decoration: none;
     }
     
@@ -281,7 +281,7 @@
     .email-container-title p{
         color: white;
         font-size: 1.5em;
-        font-family: 'Righteous', cursive;
+        
     }
 
     .email-container-email{
@@ -293,7 +293,7 @@
     .email-container-email a{
         color: white;
         font-size: 1.5em;
-        font-family: 'Righteous', cursive;
+        
         text-decoration: none;
         margin: 0%;
     }
@@ -347,7 +347,7 @@
     .email-container-title p{
         color: white;
         font-size: 1.2em;
-        font-family: 'Righteous', cursive;
+        
     }
 
     .email-container-email{
@@ -359,7 +359,7 @@
     .email-container-email a{
         color: white;
         font-size: 1.1em;
-        font-family: 'Righteous', cursive;
+        
         text-decoration: none;
         margin: 0%;
     }
@@ -413,7 +413,7 @@
     .email-container-title p{
         color: white;
         font-size: 1em;
-        font-family: 'Righteous', cursive;
+        
     }
 
     .email-container-email{
@@ -425,7 +425,7 @@
     .email-container-email a{
         color: white;
         font-size: 0.9em;
-        font-family: 'Righteous', cursive;
+        
         text-decoration: none;
         margin: 0%;
     }
@@ -479,7 +479,7 @@
     .email-container-title p{
         color: white;
         font-size: 0.8em;
-        font-family: 'Righteous', cursive;
+        
     }
 
     .email-container-email{
@@ -491,7 +491,7 @@
     .email-container-email a{
         color: white;
         font-size: 0.6em;
-        font-family: 'Righteous', cursive;
+        
         text-decoration: none;
         margin: 0%;
     }
