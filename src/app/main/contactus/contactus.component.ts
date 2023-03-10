@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
+import { HttpClient, HttpHeaders  } from '@angular/common/http';
 
 import '../../../utils/smtp.js'; //path might change
 declare let Email : any;
@@ -9,6 +11,19 @@ declare let Email : any;
   styleUrls: ['./contactus.component.css']
 })
 export class ContactusComponent {
+
+  @ViewChild('dialog') dialog!: ElementRef<HTMLDialogElement>;
+  @ViewChild('envioCorrecto') envioCorrecto!: ElementRef<HTMLDialogElement>;
+  
+  formValidator: boolean = false;
+
+  registerForm = this.formBuilder.group({
+    fullname: ['', [Validators.required, Validators.minLength(1)]],
+    contactnumber: ['', [Validators.required]],
+    email: ['', [Validators.required, Validators.email]],
+    service: [1, Validators.required],
+    menssage: ['', [Validators.required, Validators.minLength(1)]]
+  });
   
   Services = [{id: 1, value : "Ecommerce"},
               {id: 2, value : "Aplicación móvil"},
@@ -16,41 +31,52 @@ export class ContactusComponent {
               {id: 4, value : "Páginas web"},
               {id: 5, value : "Aplicación móvil"},
               {id: 6, value : "Desarrollo web"},
-              {id: 7, value : "Otro"}];
+              {id: 7, value : "Otro"}];  
 
-  
+  constructor(private formBuilder: FormBuilder,
+              private http: HttpClient) { }  
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-  SendEmail(){
-    Email.send({
-      Host : 'smtp.elasticemail.com',
-      Username : 'memoallighieri17@gmail.com',
-      Password : '708F13FA4D0DDDFF23D1AD548B51A04CDBD1',
-      To : 'andre_0828@outlook.com',
-      From : `memoallighieri17@gmail.com`,
-      Subject : 'prueba',
-      Body : `aaaaaaaaaaaaaaaaaaa`
-    }).then(
-      //message => alert(message)
-      console.log("ok")
-    );
+  ngOnInit(): void {    
   }
 
-  // onSubmit(contactForm: NgForm) {
-  //   if (contactForm.valid) {
-  //     const email = contactForm.value;
-  //     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-  //     this.http.post('https://formspree.io/asdlf7asdf',
-  //       { name: email.name, replyto: email.email, message: email.messages },
-  //       { 'headers': headers }).subscribe(
-  //         response => {
-  //           console.log(response);
-  //         }
-  //       );
-  //   }
-  // }
-   
+  openDialog() {
+    this.dialog.nativeElement.showModal();
+  }
+
+  closeDialog() {
+    this.dialog.nativeElement.close();
+    this.cleanForm();
+  }
+
+  closeDialogConfirmation() {
+    this.envioCorrecto.nativeElement.close();
+  }
+
+  cleanForm(){
+    this.registerForm.patchValue({
+      fullname: '',
+      contactnumber: '',
+      email: '',
+      service: 1,
+      menssage: ''
+    });
+  }
+
+  SendEmail(){    
+    if (this.registerForm.valid){
+      this.formValidator = false;      
+      const email = this.registerForm.value;
+      const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+      this.http.post('https://formspree.io/xknablda'  
+        ,{ name: email.fullname, replyto: email.email, message: email.menssage }
+        ,{ 'headers': headers }).subscribe(
+        response => {
+          this.closeDialog();      
+          this.envioCorrecto.nativeElement.showModal();
+        }
+      );
+    }else{
+      this.formValidator = true;
+    }
+  }   
 }

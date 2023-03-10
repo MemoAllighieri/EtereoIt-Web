@@ -215,6 +215,17 @@
     margin: 0%;
 }
 
+.form-container-message-error{
+    margin: 0.5vh 1% 0.5vh 1%
+}
+
+.form-container-message-error label{
+    color: #ce0a0a;
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0%;
+}
+
 .form-container-message textarea{
     width: 95%;
     height: 10vh;

@@ -1,5 +1,5 @@
 <div class="floating-button">
-    <div class="contact" (click)="dialog.showModal()">        
+    <div class="contact" (click)="openDialog()">        
         <div class="contact-icon">
             <i class="far fa-comment-alt fa-lg "></i>
         </div>
@@ -9,7 +9,7 @@
     </div>
 </div>
 <dialog #dialog class="dialog-container">
-    <div class="close-modal" (click)="dialog.close()">
+    <div class="close-modal" (click)="closeDialog()">
         <i class="fas fa-times close-modal-button"></i>
     </div>     
     <div class="dialog-container-elements">
@@ -21,36 +21,48 @@
                 <div class="form-container-title">
                     <h1>¿Como podemos ayudarte?</h1>
                 </div>  
-                <div class="form-container-up">
-                    <div class="form-container-name">
-                        <label for="FullName" class="form-label">NOMBRES COMPLETOS:</label>
-                        <input type="FullName" class="form-control" id="FullName">
+                <form [formGroup]="registerForm" (submit)="sendEmail()">
+                    <div class="form-container-up">
+                        <div class="form-container-name">
+                            <label for="fullname" class="form-label">NOMBRES COMPLETOS:</label>
+                            <input type="text" class="form-control" id="fullname" formControlName="fullname">
+                        </div>
+                        <div class="form-container-contact">
+                            <label for="contactnumber" class="form-label">NUMERO DE CONTACTO:</label>
+                            <input type="text" class="form-control" id="contactnumber" formControlName="contactnumber">
+                        </div>
+                    </div>          
+                    <div class="form-container-email">
+                        <label for="email" class="form-label">CORREO ELECTRONICO:</label>
+                        <input type="email" class="form-control" id="email" formControlName="email">
                     </div>
-                    <div class="form-container-contact">
-                        <label for="ContactNumber" class="form-label">NUMERO DE CONTACTO:</label>
-                        <input type="ContactNumber" class="form-control" id="ContactNumber">
+                    <div class="form-container-service">
+                        <label for="service" class="form-label">EN QUE SERVICIO ESTARIAS INTERESADO:</label>
+                        <select class="form-select" id="service" formControlName="service">
+                            <option *ngFor="let data of Services" [value]="data.id">
+                                {{data.value}}
+                            </option>
+                        </select>
                     </div>
-                </div>          
-                <div class="form-container-email">
-                    <label for="Email" class="form-label">CORREO ELECTRONICO:</label>
-                    <input type="Email" class="form-control" id="Email">
-                </div>
-                <div class="form-container-service">
-                    <label for="Service" class="form-label">EN QUE SERVICIO ESTARIAS INTERESADO:</label>
-                    <select class="form-select" id="Service">
-                        <option *ngFor="let data of Services" [value]="data.id">
-                            {{data.value}}
-                        </option>
-                    </select>
-                </div>
-                <div class="form-container-message">
-                    <label for="Message" class="form-label">MENSAJE:</label>
-                    <textarea class="form-control" id="Message" rows="4"></textarea>
-                </div>
-                <div class="form-container-button">
-                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary button-submit" type="submit" (click)="SendEmail()">Enviar</button>
-                </div>
+                    <div class="form-container-message">
+                        <label for="message" class="form-label">MENSAJE:</label>
+                        <textarea class="form-control" id="message" rows="4" formControlName="menssage"></textarea>
+                    </div>
+                    <div class="form-container-button">
+                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary button-submit" type="submit">Enviar</button>
+                    </div>
+                    <div *ngIf="formValidator" class="form-container-message-error">
+                        <label>Complete los campos correctamente!</label>                        
+                    </div>
+                </form>                
             </div>            
         </div>        
     </div>
+</dialog>
+
+<dialog #envioCorrecto class="dialog-container">
+    <div class="close-modal" (click)="closeDialogConfirmation()">
+        <i class="fas fa-times close-modal-button"></i>
+    </div> 
+    OK se envio el correo!!!!!!!!!!!!
 </dialog>
