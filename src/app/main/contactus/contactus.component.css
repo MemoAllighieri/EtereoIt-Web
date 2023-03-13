@@ -1,269 +1,277 @@
+#modal-button {
+  width: 15%;
+  height: 8vh;
+  position: fixed;
+  bottom: 8.5%;
+  right: 3%;
+  z-index: 2;
+  background-color: #3ea7a4;
+  border-color: #318582;
+}
+
 /*Floating Action Button*/
-.floating-button{
-    width: 15%;
-    height: 12vh;
-    position: fixed;
-    bottom: 8.5%;
-    right: 3%;
-    z-index: 2;
+.floating-button {
+  width: 15%;
+  height: 12vh;
+  position: fixed;
+  bottom: 8.5%;
+  right: 3%;
+  z-index: 2;
 }
 
-.contact{
-    width: 90%;
-    height: 9vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 1vh 5% 1vh 5%;
-    text-decoration: none;
-    background: #3EA7A4;
-    color:#ffffff;
-    border-radius: 25px;
-    text-align: center;
+.contact {
+  width: 90%;
+  height: 9vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1vh 5% 1vh 5%;
+  text-decoration: none;
+  background: #3ea7a4;
+  color: #ffffff;
+  border-radius: 25px;
+  text-align: center;
 }
 
-.contact-icon{
-    width: 25%;
-    height: 6vh;
-    margin: 2.5vh 0% 1vh 2.5%;
-    cursor: pointer; 
-    text-align: center;
+.contact-icon {
+  width: 25%;
+  height: 6vh;
+  margin: 2.5vh 0% 1vh 2.5%;
+  cursor: pointer;
+  text-align: center;
 }
 
-.contact-icon i{
-    margin: 0%;
-    padding: 0%;
-    font-size: 3.5em;
+.contact-icon i {
+  margin: 0%;
+  padding: 0%;
+  font-size: 3.5em;
 }
 
-.contact-p{
-    width: 65%;
-    height: 6vh;
-    margin: 2vh 0% 2vh 0%;
-    text-align: left;
+.contact-p {
+  width: 65%;
+  height: 6vh;
+  margin: 2vh 0% 2vh 0%;
+  text-align: left;
 }
 
-.contact-p p{
-    
-    font-size: 2.2em;
+.contact-p p {
+  font-size: 2.2em;
 }
 
 /*RESPONSIVE PARA MODAL*/
-.close-modal{
-    width: 5%;
-    height: 5vh;
-    position: absolute;    
-    cursor: pointer;
-    text-align: center;
-    top:1%; 
-    right:-1%;
+.close-modal {
+  width: 5%;
+  height: 5vh;
+  position: absolute;
+  cursor: pointer;
+  text-align: center;
+  top: 1%;
+  right: -1%;
 }
 
-.close-modal-button{
-    color: #ffffff;
-    font-size: 1em;
+.close-modal-button {
+  color: #ffffff;
+  font-size: 1em;
 }
 
-.dialog-container{
-    width: 50%;
-    height: 60vh;  
-    padding: 0px;
-    overflow-y: hidden;
-    overflow-x: hidden; 
-    border-radius: 10px;
+.dialog-container {
+  width: 50%;
+  height: 60vh;
+  padding: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 10px;
 }
 
-.dialog-container-elements{
-    width: 100%;
-    height: 60vh;  
-    display: flex;
-    flex-direction: row;
-    background-color: #2b2b2b;
+.dialog-container-elements {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #2b2b2b;
 }
 
-.image-container{
-    width: 45%;
-    height: 60vh;
+.image-container {
+  width: 45%;
+  height: 60vh;
 }
 
-.image-container img{
-    width: 100%;
-    height: 60vh;
+.image-container img {
+  width: 100%;
+  height: 60vh;
 }
 
-.form-container{
-    width: 55%;
-    height: 60vh;
-    margin: 0%;    
+.form-container {
+  width: 55%;
+  height: 60vh;
+  margin: 0%;
 }
 
-.form-container-elements{
-    width: 85%;
-    height: 59.5vh;
-    margin: 0% 0% 0% 8%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.form-container-elements {
+  width: 85%;
+  height: 59.5vh;
+  margin: 0% 0% 0% 8%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.form-container-title{
-    width: 100%;
-    height: 5vh;
-    text-align: center;
+.form-container-title {
+  width: 100%;
+  height: 5vh;
+  text-align: center;
 }
 
-.form-container-title h1{
-    color: #ffffff;
-    font-size: 1.8em;
-    
+.form-container-title h1 {
+  color: #ffffff;
+  font-size: 1.8em;
 }
 
-.form-container-up{
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+.form-container-up {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-.form-container-name{
-    width: 48%;
-    height: 10vh;
+.form-container-name {
+  width: 48%;
+  height: 10vh;
 }
 
-.form-container-name label{
-    color: #ffffff;
-    font-size: 1em;
-    
-    margin: 0%;
+.form-container-name label {
+  color: #ffffff;
+  font-size: 1em;
+
+  margin: 0%;
 }
 
-.form-container-name input{
-    width: 95%;
-    height: 5vh;
-    margin-top: 1vh;
-    
-    border-radius: 0%;
+.form-container-name input {
+  width: 95%;
+  height: 5vh;
+  margin-top: 1vh;
+
+  border-radius: 0%;
 }
 
-.form-container-contact{
-    width: 50%;
-    height: 10vh;
-    display: flex;
-    align-content: flex-end;
-    flex-direction: column;
-    flex-wrap: wrap;
+.form-container-contact {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.form-container-contact label{
-    color: #ffffff;
-    font-size: 1em;
-    
-    margin: 0%;
+.form-container-contact label {
+  color: #ffffff;
+  font-size: 1em;
+
+  margin: 0%;
 }
 
-.form-container-contact input{
-    width: 95%;
-    height: 5vh;
-    margin-top: 1vh;
-    
-    border-radius: 0%;
+.form-container-contact input {
+  width: 95%;
+  height: 5vh;
+  margin-top: 1vh;
+
+  border-radius: 0%;
 }
 
-.form-container-email{
-    width: 100%;
-    height: 10vh;
-
+.form-container-email {
+  width: 100%;
+  height: 10vh;
 }
 
-.form-container-email label{
-    color: #ffffff;
-    font-size: 1em;
-    
-    margin: 0%;
+.form-container-email label {
+  color: #ffffff;
+  font-size: 1em;
+
+  margin: 0%;
 }
 
-.form-container-email input{
-    width: 100%;
-    height: 5vh;
-    margin-top: 1vh;
-    
-    border-radius: 0%;
+.form-container-email input {
+  width: 100%;
+  height: 5vh;
+  margin-top: 1vh;
+
+  border-radius: 0%;
 }
 
-.form-container-service{
-    width: 100%;
-    height: 10vh;
+.form-container-service {
+  width: 100%;
+  height: 10vh;
 }
 
-.form-container-service label{
-    color: #ffffff;
-    font-size: 1em;
-    
-    margin: 0%;
+.form-container-service label {
+  color: #ffffff;
+  font-size: 1em;
+
+  margin: 0%;
 }
 
-.form-container-service select{
-    width: 100%;
-    height: 5vh;
-    margin-top: 1vh;
-    
-    font-size: 0.9em;
-    border-radius: 0%;
+.form-container-service select {
+  width: 100%;
+  height: 5vh;
+  margin-top: 1vh;
+
+  font-size: 0.9em;
+  border-radius: 0%;
 }
 
-.form-container-message{
-    width: 100%;
-    height: 15vh;
+.form-container-message {
+  width: 100%;
+  height: 15vh;
 }
 
-.form-container-message label{
-    color: #ffffff;
-    font-size: 1em;
-    
-    margin: 0%;
+.form-container-message label {
+  color: #ffffff;
+  font-size: 1em;
+
+  margin: 0%;
 }
 
-.form-container-message textarea{
-    width: 100%;
-    height: 9vh;
-    margin-top: 1vh;
-    
-    font-size: 0.9em;
-    border-radius: 0%;
+.form-container-message textarea {
+  width: 100%;
+  height: 9vh;
+  margin-top: 1vh;
+
+  font-size: 0.9em;
+  border-radius: 0%;
 }
 
-.form-container-down{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
+.form-container-down {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
 }
 
-.form-container-button{
-    width: 30%;
-    height: 6vh;
+.form-container-button {
+  width: 30%;
+  height: 6vh;
 }
 
-.form-container-button button{
-    width: 95%;
-    height: 6vh;
-    background-color: #3EA7A4;
-    font-size: 1.5em;
-    font-weight: lighter;
-    text-align: center;
-    padding: 0%;
+.form-container-button button {
+  width: 95%;
+  height: 6vh;
+  background-color: #3ea7a4;
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: center;
+  padding: 0%;
 }
 
-.form-container-message-error{
-    width: 70%;
-    height: 3vh;
-    margin: 1.5vh 3% 0.5vh 3%
+.form-container-message-error {
+  width: 70%;
+  height: 3vh;
+  margin: 1.5vh 3% 0.5vh 3%;
 }
 
-.form-container-message-error label{
-    color: #ce0a0a;
-    font-size: 1em;
-    margin:auto;
+.form-container-message-error label {
+  color: #ce0a0a;
+  font-size: 1em;
+  margin: auto;
 }
 
 /* 
