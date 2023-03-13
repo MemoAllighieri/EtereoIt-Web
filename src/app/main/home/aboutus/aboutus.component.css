@@ -35,10 +35,10 @@
 
 .row img {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 0%;
-  left: 50%;
+  width: 80px;
+  height: 80px;
+  top: -20%;
+  left: 42%;
   background-color: #fff;
 }
 
@@ -58,6 +58,25 @@
   }
   .banner-text p {
     font-size: 0.5rem;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row div {
+    margin-top: 10%;
+    border: none;
+  }
+
+  .row img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -3%;
+    left: 42%;
+    background-color: #fff;
   }
 }
 /*
