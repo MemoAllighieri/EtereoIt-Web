@@ -1,3 +1,43 @@
+.social-icon{
+    height: 72px;
+    width: 72px;
+}
+
+.logo-footer{
+    height: 80px;
+}
+
+@media only screen and (max-width: 450px)  {
+    .logo-footer{
+        height: 60px;
+        justify-content: center !important;
+    }
+    .logo-container {
+        width: 100%;
+        justify-content: center !important;
+    }
+    .social-icon{
+        height: 28px;
+        width: 28px;
+    }
+    .email-footer{
+        margin-top: 7px;
+        font-size: 13px;
+    }
+    .email-footer p{
+        margin-bottom: 8px;
+    }
+}
+
+
+
+
+
+
+
+/* 
+
+
 .footer-container{
     display: flex;
     flex-direction: row;
@@ -59,8 +99,8 @@
     width: 80%;
     height: 8vh;
     margin-left: 20%;
-}
-
+} */
+/* 
 @media screen and (max-width: 1750px){
     .footer-container{
         display: flex;
@@ -515,4 +555,4 @@
         height: 5vh;
         margin: 0%;
     }
-}
+} */

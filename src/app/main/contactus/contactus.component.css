@@ -266,7 +266,7 @@
     margin:auto;
 }
 
-
+/* 
 @media screen and (max-width: 2500px){
     .floating-button{
         width: 17%;
@@ -468,7 +468,7 @@
         font-size: 1.8em;
     }
 
-    /*RESPONSIVE PARA MODAL*/
+    
     .close-modal{
         width: 5%;
         height: 5vh;
@@ -707,7 +707,7 @@
         font-size: 1.8em;
     }
 
-    /*RESPONSIVE PARA MODAL*/
+    
     .close-modal{
         width: 5%;
         height: 5vh;
@@ -946,7 +946,7 @@
         font-size: 1.6em;
     }
 
-    /*RESPONSIVE PARA MODAL*/
+    
     .close-modal{
         width: 5%;
         height: 5vh;
@@ -1185,7 +1185,7 @@
         font-size: 1.3em;
     }
 
-    /*RESPONSIVE PARA MODAL*/
+    
     .close-modal{
         width: 5%;
         height: 5vh;
@@ -1425,7 +1425,7 @@
         font-size: 1.2em;
     }
 
-    /* RESPONSIVE PARA MODAL */
+    
     .close-modal{
         width: 5%;
         height: 5vh;
@@ -1670,7 +1670,7 @@
         font-size: 1em;
     }
 
-    /* RESPONSIVE PARA MODAL */
+    
     .close-modal{
         width: 5%;
         height: 5vh;
@@ -1915,7 +1915,7 @@
         font-size: 0.9  em;
     }
 
-    /* RESPONSIVE PARA MODAL */
+    
     .close-modal{
         width: 5%;
         height: 5vh;
@@ -2113,7 +2113,7 @@
 }
 
 @media screen and (max-width: 400px){
-    /* RESPONSIVE PARA BOTÓN */
+    
     .floating-button{
         width: 35%;
         height: 7vh;
@@ -2162,7 +2162,7 @@
     }
 
 
-    /* RESPONSIVE PARA MODAL */
+    
     .close-modal{
         width: 5%;
         height: 5vh;
@@ -2357,4 +2357,4 @@
         text-align: center;
         padding: 0%;
     }
-}
+} */
