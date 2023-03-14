@@ -31,62 +31,81 @@
           aria-label="Close"
         ></button>
       </div>
-      <div class="modal-body bg-dark p-4">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"
-            >Nombres Completos:</label
+      <form [formGroup]="registerForm" (submit)="sendEmail()">
+        <div class="modal-body bg-dark p-4">
+          <div class="mb-3">
+            <label
+              for="exampleFormControlInput1"
+              class="form-label"
+              formControlName="fullname"
+              >Nombres Completos:</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="mb-3">
+            <label
+              for="exampleFormControlInput1"
+              class="form-label"
+              formControlName="contactnumber"
+              >Número de contacto:</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="mb-3">
+            <label
+              for="exampleFormControlInput1"
+              class="form-label"
+              formControlName="email"
+              >Correo Electronico:</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="nombre@gmail.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="service" class="form-label"
+              >En que servicio estarías interesado:</label
+            >
+            <select
+              class="form-select"
+              aria-label="Default select example"
+              formControlName="service"
+            >
+              <option *ngFor="let data of Services" [value]="data.id">
+                {{ data.value }}
+              </option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Comentanos tu idea:
+            </label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              formControlName="message"
+            ></textarea>
+          </div>
+        </div>
+        <div class="modal-footer bg-dark">
+          <label class="text-center" *ngIf="formValidator"
+            >Complete los campos correctamente</label
           >
-          <input
-            type="text"
-            class="form-control"
-            id="exampleFormControlInput1"
-          />
+          <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"
-            >Correo Electronico:</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleFormControlInput1"
-            placeholder="nombre@gmail.com"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"
-            >Número de contacto:</label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="exampleFormControlInput1"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="service" class="form-label"
-            >En que servicio estarías interesado:</label
-          >
-          <select class="form-select" aria-label="Default select example">
-            <option *ngFor="let data of Services" [value]="data.id">
-              {{ data.value }}
-            </option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label"
-            >Comentanos tu idea:
-          </label>
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="3"
-          ></textarea>
-        </div>
-      </div>
-      <div class="modal-footer bg-dark">
-        <button type="button" class="btn btn-primary btn-lg">Enviar</button>
-      </div>
+      </form>
     </div>
   </div>
 </div>

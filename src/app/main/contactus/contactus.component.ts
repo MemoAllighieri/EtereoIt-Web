@@ -1,17 +1,16 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
-import { HttpClient, HttpHeaders  } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import '../../../utils/smtp.js'; //path might change
-declare let Email : any;
+declare let Email: any;
 
 @Component({
   selector: 'app-contactus',
   templateUrl: './contactus.component.html',
-  styleUrls: ['./contactus.component.css']
+  styleUrls: ['./contactus.component.css'],
 })
 export class ContactusComponent {
-
   @ViewChild('dialog') dialog!: ElementRef<HTMLDialogElement>;
   @ViewChild('envioCorrecto') envioCorrecto!: ElementRef<HTMLDialogElement>;
 
@@ -22,22 +21,22 @@ export class ContactusComponent {
     contactnumber: ['', [Validators.required]],
     email: ['', [Validators.required, Validators.email]],
     service: [1, Validators.required],
-    menssage: ['', [Validators.required, Validators.minLength(1)]]
+    message: ['', [Validators.required, Validators.minLength(1)]],
   });
-  
-  Services = [{id: 1, value : "Ecommerce"},
-              {id: 2, value : "Aplicación móvil"},
-              {id: 3, value : "Chatbot"},
-              {id: 4, value : "Páginas web"},
-              {id: 5, value : "Aplicación móvil"},
-              {id: 6, value : "Desarrollo web"},
-              {id: 7, value : "Otro"}];  
 
-  constructor(private formBuilder: FormBuilder,
-              private http: HttpClient) { }  
+  Services = [
+    { id: 1, value: 'Ecommerce' },
+    { id: 2, value: 'Aplicación móvil' },
+    { id: 3, value: 'Chatbot' },
+    { id: 4, value: 'Páginas web' },
+    { id: 5, value: 'Aplicación móvil' },
+    { id: 6, value: 'Desarrollo web' },
+    { id: 7, value: 'Otro' },
+  ];
 
-  ngOnInit(): void {    
-  }
+  constructor(private formBuilder: FormBuilder, private http: HttpClient) {}
+
+  ngOnInit(): void {}
 
   openDialog() {
     this.dialog.nativeElement.showModal();
@@ -52,31 +51,31 @@ export class ContactusComponent {
     this.envioCorrecto.nativeElement.close();
   }
 
-  cleanForm(){
+  cleanForm() {
     this.registerForm.patchValue({
       fullname: '',
       contactnumber: '',
       email: '',
       service: 1,
-      menssage: ''
+      message: '',
     });
   }
 
-  sendEmail(){    
-    if (this.registerForm.valid){
-      this.formValidator = false;      
+  sendEmail() {
+    if (this.registerForm.valid) {
+      this.formValidator = false;
       // const email = this.registerForm.value;
       // const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-      // this.http.post('https://formspree.io/xknablda'  
+      // this.http.post('https://formspree.io/xknablda'
       //   ,{ name: email.fullname, replyto: email.email, message: email.menssage }
       //   ,{ 'headers': headers }).subscribe(
       //   response => {
-      //     this.closeDialog();      
+      //     this.closeDialog();
       //     this.envioCorrecto.nativeElement.showModal();
       //   }
       // );
-    }else{
+    } else {
       this.formValidator = true;
     }
-  }   
+  }
 }

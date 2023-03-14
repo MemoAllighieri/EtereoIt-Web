@@ -26,11 +26,17 @@
   border-color: #318582;
 }
 
+.modal-footer label {
+  border: 2px solid blue;
+  width: 100%;
+  color: red;
+}
+
 @media only screen and (max-width: 450px) {
-  .item-label{
+  .item-label {
     display: none;
   }
-  #modal-button{
+  #modal-button {
     width: 20vw;
     padding: 0px;
     font-size: 35px !important;
