@@ -1,8 +1,8 @@
 #modal-button {
-  width: 15%;
-  height: 8vh;
+  height: 65px;
+  width: 280px;
   position: fixed;
-  bottom: 8.5%;
+  bottom: 25%;
   right: 3%;
   z-index: 2;
   background-color: #3ea7a4;
@@ -24,4 +24,15 @@
 .modal-footer button {
   background-color: #3ea7a4;
   border-color: #318582;
+}
+
+@media only screen and (max-width: 450px) {
+  .item-label{
+    display: none;
+  }
+  #modal-button{
+    width: 20vw;
+    padding: 0px;
+    font-size: 35px !important;
+  }
 }
