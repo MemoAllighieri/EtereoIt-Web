@@ -1,10 +1,9 @@
-
-.header-logo{    
-    cursor: pointer;
+.header-logo {
+  cursor: pointer;
 }
 
-.header-logo img{
-    height: 80px;
+.header-logo img {
+  height: 80px;
 }
 
 /* .navbar {
@@ -12,16 +11,16 @@
     background-color: #fff;
 
 } */
-nav .navbar-nav li a{
-    color: #000 !important;
+nav .navbar-nav li a {
+  color: #000 !important;
 }
 
-@media only screen and (max-width: 450px)  {
-    .header-logo img{
-        height: 60px;
-    }
-    .container-fluid{
-        margin-left: 0px;
-        padding-left: 0px;
-    }
+@media only screen and (max-width: 450px) {
+  .header-logo img {
+    height: 60px;
+  }
+  .container-fluid {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
 }
