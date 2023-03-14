@@ -1,11 +1,7 @@
-.container {
-  background-color: rgb(201, 201, 201);
-  width: 90%;
+.card-text {
+  text-align: justify;
 }
-.float-start {
-  width: 100%;
-}
-
-.float-end {
-  width: 100%;
-}
+/* 
+.card-text-2 {
+  text-align: justify;
+} */
