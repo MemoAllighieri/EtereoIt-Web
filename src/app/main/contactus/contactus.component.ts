@@ -18,7 +18,8 @@ export class ContactusComponent {
 
   registerForm = this.formBuilder.group({
     fullname: ['', [Validators.required, Validators.minLength(1)]],
-    contactnumber: ['', [Validators.required]],
+    contactnumber: ['', [Validators.required, Validators.pattern("^[0-9]*$"),
+    Validators.minLength(8),]],
     email: ['', [Validators.required, Validators.email]],
     service: [1, Validators.required],
     message: ['', [Validators.required, Validators.minLength(1)]],
@@ -59,6 +60,14 @@ export class ContactusComponent {
       service: 1,
       message: '',
     });
+  }
+
+  finalModal:boolean = false;
+  principalModal:boolean = true;
+
+  successful(){
+    this.finalModal = true;
+    this.finalModal = false;
   }
 
   sendEmail() {

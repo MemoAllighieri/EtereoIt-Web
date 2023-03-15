@@ -32,7 +32,17 @@
         ></button>
       </div>
       <form [formGroup]="registerForm" (submit)="sendEmail()">
-        <div class="modal-body bg-dark p-4">
+        <div *ngIf="finalModal" class="modal-body bg-dark p-4">
+          <div class="text-center">
+            <h4>
+              Gracias por comunicarte con nosotros
+            </h4>
+            <p>
+              Tu mensaje se envió exitosamente, en breve nos contactaremos contigo.
+            </p>
+          </div>
+        </div>
+        <div *ngIf="principalModal" class="modal-body bg-dark p-4">
           <div class="mb-3">
             <label
               for="exampleFormControlInput1"
@@ -103,7 +113,7 @@
           <label class="text-center" *ngIf="formValidator"
             >Complete los campos correctamente</label
           >
-          <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+          <button (click)="successful()" type="submit" class="btn btn-primary btn-lg">Enviar</button>
         </div>
       </form>
     </div>
