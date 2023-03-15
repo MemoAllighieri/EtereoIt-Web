@@ -58,13 +58,11 @@
     margin-top: 10%;
     border: none;
   }
-
-  .row img {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    top: -3%;
-    left: 42%;
-    background-color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .col img {
+    width: 10vh;
+    height: 10vh;
+    align-content: center;
   }
 }
