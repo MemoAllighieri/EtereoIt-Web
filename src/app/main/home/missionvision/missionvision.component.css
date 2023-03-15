@@ -1,7 +1,13 @@
 .card-text {
   text-align: justify;
 }
-/* 
-.card-text-2 {
-  text-align: justify;
-} */
+
+.card {
+  max-width: 80%;
+}
+
+@media only screen and (max-width: 450px) {
+  .card {
+    max-width: 100%;
+  }
+}

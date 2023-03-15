@@ -1,7 +1,6 @@
-.col-sm-5 img {
+.float-end {
   width: 100%;
 }
-
-.col-sm-6 img {
-  width: 100%;
+.card-text {
+  text-align: justify;
 }
