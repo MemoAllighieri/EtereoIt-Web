@@ -1,23 +1,3 @@
-<!-- <div class="footer-container">
-  <div class="email-container">
-    <div class="email-container-title">
-      <p>Correo:</p>
-    </div>
-    <div class="email-container-email">
-      <a href="#" class="nav-enlace"> contacto@etereo-it.com</a>
-    </div>
-  </div>
-  <div class="social-container">
-    <img src="../../../assets/images/footer/linkd.png" />
-    <img src="../../../assets/images/footer/instagram.png" />
-    <img src="../../../assets/images/footer/twitter.png" />
-    <img src="../../../assets/images/footer/facebook.png" />
-  </div>
-  <div class="logo-container">
-    <img src="../../../assets/images/footer/lgsfblncoslg.png" class="etereo" />
-  </div>
-</div> -->
-
 <div
   class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark text-white"
 >
@@ -27,7 +7,7 @@
     <div class="col-md-4 email-footer">
       <p>
         Email:
-        <a href="mailto:contacto@etereo-it.com" class="nav-enlace">
+        <a href="{{mailEtereo}}" class="nav-enlace">
           contacto@etereo-it.com</a
         >
       </p>
@@ -35,31 +15,31 @@
     <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
       <li>
         <img
-          src="../../../assets/images/footer/linkd.png"
+          src="{{linkd}}"
           class="social-icon img-fluid"
         />
       </li>
       <li>
-        <a href="https://www.instagram.com/etereoit.solutions/" target="_blank">
+        <a href="{{urlInstagram}}" target="_blank">
           <img
-            src="../../../assets/images/footer/instagram.png"
+            src="{{instagram}}"
             class="social-icon img-fluid"
           />
         </a>
       </li>
       <li>
         <img
-          src="../../../assets/images/footer/twitter.png"
+          src="{{twitter}}"
           class="social-icon img-fluid"
         />
       </li>
       <li>
         <a
-          href="https://www.facebook.com/profile.php?id=100090755867525"
+          href="{{urlFacebook}}"
           target="_blank"
         >
           <img
-            src="../../../assets/images/footer/facebook.png"
+            src="{{facebook}}"
             class="social-icon img-fluid"
           />
         </a>
@@ -67,7 +47,7 @@
     </ul>
     <div class="col-md-4 d-flex justify-content-end logo-container">
       <img
-        src="../../../assets/images/footer/logo-etereo-footer.png"
+        src="{{footerLogoWhite}}"
         class="img-fluid logo-footer d-flex justify-content-end"
       />
     </div>

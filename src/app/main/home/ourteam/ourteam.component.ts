@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Constants } from '../../../../utils/constants';
 
 @Component({
   selector: 'app-ourteam',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./ourteam.component.css']
 })
 export class OurteamComponent {
-
+  ourTeam : string = Constants.ourTeam;
+  aboutUs : string = Constants.aboutUs;
 }
