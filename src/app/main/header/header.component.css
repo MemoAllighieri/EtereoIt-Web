@@ -24,12 +24,6 @@
   width: 100%;
   right: 0;
 }
-
-/* .navbar {
-    position: fixed;
-    background-color: #fff;
-
-} */
 nav .navbar-nav li a {
   color: #000 !important;
 }

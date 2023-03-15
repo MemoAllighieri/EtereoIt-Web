@@ -11,15 +11,11 @@ declare let Email: any;
   styleUrls: ['./contactus.component.css'],
 })
 export class ContactusComponent {
-  @ViewChild('dialog') dialog!: ElementRef<HTMLDialogElement>;
-  @ViewChild('envioCorrecto') envioCorrecto!: ElementRef<HTMLDialogElement>;
-
   formValidator: boolean = false;
 
   registerForm = this.formBuilder.group({
-    fullname: ['', [Validators.required, Validators.minLength(1)]],
-    contactnumber: ['', [Validators.required, Validators.pattern("^[0-9]*$"),
-    Validators.minLength(8),]],
+    name: ['', [Validators.required, Validators.minLength(1)]],
+    contact: ['', [Validators.required]],
     email: ['', [Validators.required, Validators.email]],
     service: [1, Validators.required],
     message: ['', [Validators.required, Validators.minLength(1)]],
@@ -39,40 +35,33 @@ export class ContactusComponent {
 
   ngOnInit(): void {}
 
-  openDialog() {
-    this.dialog.nativeElement.showModal();
-  }
-
-  closeDialog() {
-    this.dialog.nativeElement.close();
-    this.cleanForm();
-  }
-
-  closeDialogConfirmation() {
-    this.envioCorrecto.nativeElement.close();
-  }
-
   cleanForm() {
     this.registerForm.patchValue({
-      fullname: '',
-      contactnumber: '',
+      name: '',
+      contact: '',
       email: '',
       service: 1,
       message: '',
     });
-  }
-
-  finalModal:boolean = false;
-  principalModal:boolean = true;
-
-  successful(){
-    this.finalModal = true;
     this.finalModal = false;
+    this.principalModal = true;
+    this.textTitle = '¿Como podemos ayudarte?';
+    this.ocultButton = true;
   }
+
+  finalModal: boolean = false;
+  principalModal: boolean = true;
+  textTitle = '¿Como podemos ayudarte?';
+  ocultButton = true;
 
   sendEmail() {
+    console.log(this.registerForm);
     if (this.registerForm.valid) {
       this.formValidator = false;
+      this.finalModal = true;
+      this.principalModal = false;
+      this.textTitle = '';
+      this.ocultButton = false;
       // const email = this.registerForm.value;
       // const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
       // this.http.post('https://formspree.io/xknablda'
