@@ -5,6 +5,25 @@
 .header-logo img {
   height: 80px;
 }
+.nav-link {
+  position: relative;
+}
+.nav-link:after {
+  content: "";
+  width: 0;
+  height: 4px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transition: all 0.5s;
+  will-change: width;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+  right: 0;
+}
 
 /* .navbar {
     position: fixed;
