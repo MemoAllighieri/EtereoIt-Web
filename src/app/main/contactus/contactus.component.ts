@@ -12,6 +12,10 @@ declare let Email: any;
 })
 export class ContactusComponent {
   formValidator: boolean = false;
+  finalModal: boolean = false;
+  principalModal: boolean = true;
+  textTitle = '¿Como podemos ayudarte?';
+  ocultButton = true;
 
   registerForm = this.formBuilder.group({
     name: ['', [Validators.required, Validators.minLength(1)]],
@@ -47,31 +51,23 @@ export class ContactusComponent {
     this.principalModal = true;
     this.textTitle = '¿Como podemos ayudarte?';
     this.ocultButton = true;
-  }
-
-  finalModal: boolean = false;
-  principalModal: boolean = true;
-  textTitle = '¿Como podemos ayudarte?';
-  ocultButton = true;
+  } 
 
   sendEmail() {
-    console.log(this.registerForm);
-    if (this.registerForm.valid) {
-      this.formValidator = false;
-      this.finalModal = true;
-      this.principalModal = false;
-      this.textTitle = '';
-      this.ocultButton = false;
-      // const email = this.registerForm.value;
-      // const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-      // this.http.post('https://formspree.io/xknablda'
-      //   ,{ name: email.fullname, replyto: email.email, message: email.menssage }
-      //   ,{ 'headers': headers }).subscribe(
-      //   response => {
-      //     this.closeDialog();
-      //     this.envioCorrecto.nativeElement.showModal();
-      //   }
-      // );
+    if (this.registerForm.valid) {      
+      const email = this.registerForm.value;
+      const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+      this.http.post('https://formspree.io/xknablda'
+        ,{ name: email.name, replyto: email.email, message: email.message }
+        ,{ 'headers': headers }).subscribe(
+        response => {
+          this.formValidator = false;
+          this.finalModal = true;
+          this.principalModal = false;
+          this.textTitle = '';
+          this.ocultButton = false;
+        }
+      );
     } else {
       this.formValidator = true;
     }
