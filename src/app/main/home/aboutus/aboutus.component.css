@@ -21,9 +21,7 @@
 }
 
 .col img {
-  width: 30%;
-  height: 35%;
-  align-content: center;
+  width: 15vh;
 }
 
 .card {
@@ -57,5 +55,13 @@
   .row div {
     margin-top: 10%;
     border: none;
+  }
+  .col img {
+    width: 12vh;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .col img {
+    width: 10vh;
   }
 }
