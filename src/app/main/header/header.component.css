@@ -1,3 +1,9 @@
+.navbar {
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+}
 .header-logo {
   cursor: pointer;
 }
@@ -35,5 +41,39 @@ nav .navbar-nav li a {
   .container-fluid {
     margin-left: 0px;
     padding-left: 0px;
+  }
+}
+
+/* modal css */
+
+.modal-header {
+  color: #fff;
+}
+
+.modal-header button {
+  color: #fff;
+}
+
+.modal-body {
+  color: #fff;
+}
+
+.modal-footer button {
+  background-color: #3ea7a4;
+  border-color: #318582;
+}
+
+.modal-footer label {
+  color: red;
+}
+
+@media only screen and (max-width: 450px) {
+  .item-label {
+    display: none;
+  }
+  #modal-button {
+    width: 20vw;
+    padding: 0px;
+    font-size: 35px !important;
   }
 }

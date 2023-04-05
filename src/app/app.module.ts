@@ -15,7 +15,6 @@ import { TechnologiesComponent } from './main/home/technologies/technologies.com
 import { OurservicesComponent } from './main/home/ourservices/ourservices.component';
 import { OurteamComponent } from './main/home/ourteam/ourteam.component';
 import { MissionvisionComponent } from './main/home/missionvision/missionvision.component';
-import { ContactusComponent } from './main/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -28,16 +27,15 @@ import { ContactusComponent } from './main/contactus/contactus.component';
     OurservicesComponent,
     OurteamComponent,
     MissionvisionComponent,
-    ContactusComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
