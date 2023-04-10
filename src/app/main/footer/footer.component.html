@@ -7,51 +7,31 @@
     <div class="col-md-4 email-footer">
       <p>
         Email:
-        <a href="{{mailEtereo}}" class="nav-enlace">
+        <a href="{{ mailEtereo }}" class="nav-enlace">
           contacto@etereo-it.com</a
-        >        
+        >
       </p>
-      <p>
-        Contacto:
-        983324049
-      </p>
+      <p>Contacto: 983324049</p>
     </div>
     <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
-      <li>
-        <img
-          src="{{linkd}}"
-          class="social-icon img-fluid"
-          alt=".."
-        />
-      </li>
-      <li>
-        <a href="{{urlInstagram}}" target="_blank">
-          <img
-            src="../../../assets/images/footer/instagram.webp"
-            class="social-icon img-fluid"
-            alt=".."
-          />
-        </a>
-      </li>
-      <li>
-        <img
-          src="../../../assets/images/footer/twitter.webp"
-          class="social-icon img-fluid"
-          alt=".."
-        />
-      </li>
-      <li>
+      <div class="icons">
         <a
-          href="{{urlFacebook}}"
+          href="{{ urlInstagram }}"
           target="_blank"
+          class="icon icon--instagram"
         >
-          <img
-            src="../../../assets/images/footer/facebook.webp"
-            class="social-icon img-fluid"
-            alt=".."
-          />
+          <i class="ri-instagram-line"></i>
         </a>
-      </li>
+        <a href="#" class="icon icon--twitter">
+          <i class="ri-twitter-line"></i>
+        </a>
+        <a href="{{ urlFacebook }}" target="_blank" class="icon icon--facebook">
+          <i class="ri-facebook-circle-fill"></i>
+        </a>
+        <a href="#" class="icon icon--whatsapp">
+          <i class="ri-whatsapp-line"></i>
+        </a>
+      </div>
     </ul>
     <div class="col-md-4 d-flex justify-content-end logo-container">
       <img
