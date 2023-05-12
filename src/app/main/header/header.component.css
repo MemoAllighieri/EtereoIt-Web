@@ -44,12 +44,13 @@ nav .navbar-nav li a {
 
 @media only screen and (max-width: 450px) {
   .header-logo img {
-    height: 60px;
+    height: 40px;
   }
   .container-fluid {
     margin-left: 0px;
     padding-left: 0px;
   }
+  
 }
 
 /* modal css */

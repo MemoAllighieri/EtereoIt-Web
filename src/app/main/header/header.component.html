@@ -134,6 +134,7 @@
               >En que servicio estarías interesado:</label
             >
             <select
+              id="service"
               formControlName="service"
               class="form-select"
               aria-label="Default select example"
@@ -156,8 +157,8 @@
           </div>
         </div>
         <div class="modal-footer bg-dark">
-          <label class="text-center" *ngIf="formValidator"
-            >Complete los campos correctamente</label
+          <span class="text-center" *ngIf="formValidator"
+            >Complete los campos correctamente</span
           >
           <button
             *ngIf="ocultButton"
