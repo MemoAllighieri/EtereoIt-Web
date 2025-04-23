@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "etereoinformationtechnologies",
     "public": "dist/etereoit-web",
     "ignore": [
       "firebase.json",
