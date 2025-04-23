@@ -4,8 +4,9 @@ import { Constants } from '../../../utils/constants';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
-  headerLogoBlack : string = Constants.headerLogoBlack;
+  headerLogoBlack: string = Constants.headerLogoBlack;
+  urlReclamaciones: string = Constants.headerReclamaciones;
 }
